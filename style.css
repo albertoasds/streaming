@@ -1,0 +1,85 @@
+/*Configurações Globais*/
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(25, 25, 26);
+}
+
+/*Navegação e parte inicial*/
+nav{
+    padding: 20px 15px;
+}
+nav > a{
+    text-decoration: none;
+    color: antiquewhite;
+    margin: 20px;
+}
+#logo{
+    font-size: xx-large;
+}
+
+img{
+    margin: auto;
+    border-radius: 6px;
+    box-shadow: 6px 7px 8px rgba(0, 0, 0, 0.226);
+}
+img:hover{
+    outline: 4.5px solid white;
+    outline-offset: -4.5px;
+}
+.poster img{
+    height: 410px;
+}
+.poster{
+    width: 1200px;
+    margin: auto;
+}
+/* ============ SECTION FILMES E SERIES ================ */
+.main {
+    padding-top: 40px;
+    margin: 0px 10px;
+}
+
+.titulo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px 0 20px 0;
+}
+
+/* .secao_filmes{
+    margin: 0px 30px;
+} */
+
+.section-filmes {
+    margin-left: 12px;
+    padding-left: 20px;
+}
+
+.section-filmes .carousel-item img {
+    width: 280px; 
+    margin: auto 10px;
+}
+h2{
+    color: white;
+}
+footer{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#seta-esquerda {
+    width: 3%;
+}
+
+#seta-direita {
+    width: 3%;
+} 
