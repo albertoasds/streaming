@@ -35,6 +35,13 @@ img:hover{
     outline: 4.5px solid white;
     outline-offset: -4.5px;
 }
+.section-filmes{
+    padding: 12px 0px;
+}
+.section-filmes > div > img:hover{
+    transform: scale(1.07);
+    transition-duration: 0.5s;
+}
 .poster img{
     height: 410px;
 }
