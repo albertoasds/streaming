@@ -59,8 +59,8 @@ img:hover{
 } */
 
 .section-filmes {
-    margin-left: 12px;
-    padding-left: 20px;
+    text-align: center;
+    margin: auto;   
 }
 
 .section-filmes .carousel-item img {
