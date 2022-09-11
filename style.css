@@ -1,7 +1,9 @@
 /*Configurações Globais*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
 *{
     margin: 0px;
     box-sizing: border-box;
+    font-family: 'Montserrat';
 }
 img {
     display: block;
@@ -10,7 +12,7 @@ img {
 body{
     height: 100%;
     width: 100%;
-    background-color: rgb(25, 25, 26);
+    background-color: rgb(5, 5, 14);
 }
 
 /*Navegação e parte inicial*/
@@ -29,6 +31,11 @@ nav > a{
 img{
     margin: auto;
     border-radius: 6px;
+    box-shadow: 6px 8px 10px black;
+}
+.poster{
+    margin: auto;
+    border-radius: 6px;
     box-shadow: 6px 7px 8px rgba(0, 0, 0, 0.226);
 }
 img:hover{
@@ -36,18 +43,24 @@ img:hover{
     outline-offset: -4.5px;
 }
 .section-filmes{
-    padding: 12px 0px;
+    padding: 25px 0px;
 }
 .section-filmes > div > img:hover{
     transform: scale(1.07);
-    transition-duration: 0.5s;
-}
-.poster img{
-    height: 410px;
+    transition-duration: 0.7s;
+    box-shadow: 6px 8px 10px black;
 }
 .poster{
-    width: 1200px;
     margin: auto;
+    max-width: 1200px;
+    max-height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a:hover{
+    text-decoration-line: underline;
+    color: white;
 }
 /* ============ SECTION FILMES E SERIES ================ */
 .main {
