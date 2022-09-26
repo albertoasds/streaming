@@ -1,9 +1,13 @@
 /*Configurações Globais*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
 *{
     margin: 0px;
     box-sizing: border-box;
-    font-family: 'Montserrat';
+    font-family: Arial, Helvetica, sans-serif;
 }
 img {
     display: block;
@@ -21,26 +25,37 @@ nav{
 }
 nav > a{
     text-decoration: none;
-    color: antiquewhite;
+    color: white;
     margin: 20px;
+    font-size: 1.1em;
 }
 #logo{
-    font-size: xx-large;
+    font-size: 2.5em;
+    font-family: 'Rampart One';
+    color: white;
 }
 
-img{
+.section-filmes > div > img{
     margin: auto;
     border-radius: 6px;
     box-shadow: 6px 8px 10px black;
 }
-.poster{
-    margin: auto;
-    border-radius: 6px;
-    box-shadow: 6px 7px 8px rgba(0, 0, 0, 0.226);
-}
-img:hover{
+.section-filmes > div > img:hover{
     outline: 4.5px solid white;
     outline-offset: -4.5px;
+}
+#area-principal{
+    margin: 0px;
+    padding: 0px;
+}
+.poster{
+    margin: auto;
+    max-width: 100%;
+    max-height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 6px 7px 8px rgba(0, 0, 0, 0.226);
 }
 .section-filmes{
     padding: 25px 0px;
@@ -50,28 +65,16 @@ img:hover{
     transition-duration: 0.7s;
     box-shadow: 6px 8px 10px black;
 }
-.poster{
-    margin: auto;
-    max-width: 1200px;
-    max-height: 350px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 a:hover{
-    text-decoration-line: underline;
+    text-decoration-line: none;
     color: white;
 }
 /* ============ SECTION FILMES E SERIES ================ */
-.main {
-    padding-top: 40px;
-    margin: 0px 10px;
-}
 
 .titulo {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 40px 0 20px 0;
+    margin: 40px 0px 0px 0px;
 }
 
 /* .secao_filmes{
@@ -89,6 +92,7 @@ a:hover{
 }
 h2{
     color: white;
+    font-size: 1.8em;
 }
 footer{
     color: white;
@@ -102,4 +106,19 @@ footer{
 
 #seta-direita {
     width: 3%;
-} 
+}
+#seta-esquerda-principal {
+    width: 6%;
+}
+
+#seta-direita-principal {
+    width: 6%;
+}
+#seta-esquerda-principal:hover {
+    background-image: linear-gradient(to left, transparent, black);
+    transition-duration: 0.5s;
+}
+#seta-direita-principal:hover {
+    background-image: linear-gradient(to right, transparent, black);
+    transition-duration: 0.5s;
+}
