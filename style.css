@@ -10,7 +10,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 img {
-    display: block;
+    display: inline-block;
     max-width: 100%;
 }
 body{
@@ -87,7 +87,7 @@ a:hover{
 }
 
 .section-filmes .carousel-item img {
-    width: 280px; 
+    width: 22%; 
     margin: auto 10px;
 }
 h2{
@@ -101,11 +101,11 @@ footer{
 }
 
 #seta-esquerda {
-    width: 3%;
+    width: 45px;
 }
 
 #seta-direita {
-    width: 3%;
+    width: 45px;
 }
 #seta-esquerda-principal {
     width: 6%;
