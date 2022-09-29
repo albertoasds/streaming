@@ -16,7 +16,7 @@ img {
 body{
     height: 100%;
     width: 100%;
-    background-color: rgb(5, 5, 14);
+    background-image: linear-gradient(to right, rgb(0, 0, 10), rgb(2, 2, 26));
 }
 
 /*Navegação e parte inicial*/
@@ -39,10 +39,15 @@ nav > a{
     margin: auto;
     border-radius: 6px;
     box-shadow: 6px 8px 10px black;
+    width: 21.5%;
+    margin: auto 10px;
 }
 .section-filmes > div > img:hover{
     outline: 4.5px solid white;
     outline-offset: -4.5px;
+    transform: scale(1.07);
+    transition-duration: 0.7s;
+    box-shadow: 6px 8px 10px black;
 }
 #area-principal{
     margin: 0px;
@@ -57,14 +62,7 @@ nav > a{
     background-repeat: no-repeat;
     box-shadow: 6px 7px 8px rgba(0, 0, 0, 0.226);
 }
-.section-filmes{
-    padding: 25px 0px;
-}
-.section-filmes > div > img:hover{
-    transform: scale(1.07);
-    transition-duration: 0.7s;
-    box-shadow: 6px 8px 10px black;
-}
+
 a:hover{
     text-decoration-line: none;
     color: white;
@@ -76,20 +74,16 @@ a:hover{
     font-family: Arial, Helvetica, sans-serif;
     margin: 40px 0px 0px 0px;
 }
-
-/* .secao_filmes{
-    margin: 0px 30px;
-} */
+#filmes-marvel, #filmes-drama{
+    padding: 0px;
+}
 
 .section-filmes {
     text-align: center;
-    margin: auto;   
+    margin: auto;
+    padding: 25px 0px;
 }
 
-.section-filmes .carousel-item img {
-    width: 22%; 
-    margin: auto 10px;
-}
 h2{
     color: white;
     font-size: 1.8em;
@@ -101,11 +95,10 @@ footer{
 }
 
 #seta-esquerda {
-    width: 45px;
+    width: 3%;
 }
-
 #seta-direita {
-    width: 45px;
+    width: 3%;
 }
 #seta-esquerda-principal {
     width: 6%;
