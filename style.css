@@ -18,7 +18,10 @@ body{
     width: 100%;
     background-image: linear-gradient(to right, rgb(0, 0, 10), rgb(2, 2, 26));
 }
-
+h2{
+    color: white;
+    font-size: 1.8em;
+}
 /*Navegação e parte inicial*/
 nav{
     padding: 20px 15px;
@@ -28,26 +31,15 @@ nav > a{
     color: white;
     margin: 20px;
     font-size: 1.1em;
+    padding-bottom: 5px;
+}
+nav > a:hover{
+    border-bottom: 2px solid white;
 }
 #logo{
     font-size: 2.5em;
     font-family: 'Rampart One';
     color: white;
-}
-
-.section-filmes > div > img{
-    margin: auto;
-    border-radius: 6px;
-    box-shadow: 6px 8px 10px black;
-    width: 21.5%;
-    margin: auto 10px;
-}
-.section-filmes > div > img:hover{
-    outline: 4.5px solid white;
-    outline-offset: -4.5px;
-    transform: scale(1.07);
-    transition-duration: 0.7s;
-    box-shadow: 6px 8px 10px black;
 }
 #area-principal{
     margin: 0px;
@@ -62,7 +54,6 @@ nav > a{
     background-repeat: no-repeat;
     box-shadow: 6px 7px 8px rgba(0, 0, 0, 0.226);
 }
-
 a:hover{
     text-decoration-line: none;
     color: white;
@@ -83,17 +74,20 @@ a:hover{
     margin: auto;
     padding: 25px 0px;
 }
-
-h2{
-    color: white;
-    font-size: 1.8em;
+.section-filmes > div > img{
+    margin: auto;
+    border-radius: 6px;
+    box-shadow: 6px 8px 10px black;
+    width: 21.5%;
+    margin: auto 10px;
 }
-footer{
-    color: white;
-    text-align: center;
-    margin-top: 20px;
+.section-filmes > div > img:hover{
+    outline: 4.5px solid white;
+    outline-offset: -4.5px;
+    transform: scale(1.07);
+    transition-duration: 0.5s;
+    box-shadow: 6px 8px 10px black;
 }
-
 #seta-esquerda {
     width: 3%;
 }
@@ -114,4 +108,9 @@ footer{
 #seta-direita-principal:hover {
     background-image: linear-gradient(to right, transparent, black);
     transition-duration: 0.5s;
+}
+footer{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
 }
