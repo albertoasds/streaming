@@ -53,8 +53,9 @@ nav li > a{
 #logo{
     text-decoration: none;
     font-size: 2.5em;
-    font-family: 'Rampart One';
-    color: white;
+    font-family: 'Montserrat';
+    color: #9b9bc7;
+    font-weight: bold;
 }
 #area-principal{
     margin: 0px;
@@ -72,6 +73,9 @@ nav li > a{
 a:hover{
     text-decoration-line: none;
     color: white;
+}
+#logotipo{
+    width: 60px;
 }
 
 /* =================== aniamação menu ========================== */
