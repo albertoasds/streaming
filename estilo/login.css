@@ -1,9 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
-
 
 * {
   margin: 0px;
@@ -23,7 +18,11 @@ body {
  background-attachment: fixed;
 }
 
+a {
+  text-decoration: none;
+}
 
+/* =============================== Formulário ================================== */
 .form {
   max-width: 500px;
   background-color: rgba(0, 0, 0, 0.815);
@@ -47,7 +46,6 @@ input {
   padding: 10px;
   border-radius: 5px;
   outline: none;
-  border-color: rgb(2, 1, 65);
   border: none;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
@@ -59,6 +57,7 @@ input::placeholder {
   color: #181818;
 }
 
+/* ======================== Buttons e Links ========================== */
 .btn {
   width: 80%;
   padding: 15px;
@@ -72,24 +71,19 @@ input::placeholder {
   border-color: rgb(2, 1, 65);
 }
 
+.btn:hover{
+  color: rgb(2, 1, 65);
+  background-color: white;
+  transition-duration: 0.7s;
+}
+
 .lembrar {
   display: flex;
   justify-content: space-around;
   font-size: 14px;
 }
 
-.lembrar > div {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap:5px;
-  align-items: center;
-}
-.lembrar > div label {
-  line-height: 1;
-}
-
 .form .link {
-  text-decoration: none;
   color: rgba(255,255,255, 0.6);
   transition: .2s;
 }
@@ -99,34 +93,30 @@ input::placeholder {
   text-decoration: underline;
 }
 
+/* ======================= Cadastro ================================== */
 .form p {
-   font-size: 18px;
+   font-size: 20px;
    margin: 15px 0px;
 }
 
 .cadastro-btn {
-  text-decoration: none;
   color: #fff;
   display: block;
-  background: transparent;
   width: 80%;
   margin: auto;
   padding: 15px;
   border: 2px solid #fff;
   border-radius: 5px;
 }
-.btn:hover{
-    color: rgb(2, 1, 65);
-    background-color: white;
-    transition-duration: 0.7s;
-}
+
 .cadastro-btn:hover{
-    color: white;
-    background-color: rgb(2, 1, 65);
-    border-color: rgb(2, 1, 65);
-    transition-duration: 0.7s;
+  color: white;
+  background-color: rgb(2, 1, 65);
+  border-color: rgb(2, 1, 65);
+  transition-duration: 0.7s;
 }
 
+/* ======================== Responsivo ============================== */
 @media (max-width: 600px) {
   body {
     padding: 20px;
