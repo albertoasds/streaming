@@ -1,9 +1,11 @@
-/*Configurações Globais*/
+/* ========================================= CONFIGURAÇÕES GLOBAIS============================================== */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
 *{
     margin: 0px;
     box-sizing: border-box;
@@ -22,7 +24,11 @@ h2{
     color: white;
     font-size: 1.8em;
 }
-/*Navegação e parte inicial*/
+
+/* ================================================================================= */
+
+/* =========================== NAVEGAÇÃO E PARTE INICIAL =========================== */
+
 nav{
     padding: 20px 15px;
 }
@@ -58,7 +64,10 @@ a:hover{
     text-decoration-line: none;
     color: white;
 }
-/* ============ SECTION FILMES E SERIES ================ */
+
+/* ================================================================================= */
+
+/* ========================== SECTION FILMES E SÉRIES ============================== */
 
 .titulo {
     text-align: center;
@@ -109,8 +118,33 @@ a:hover{
     background-image: linear-gradient(to right, transparent, black);
     transition-duration: 0.5s;
 }
+
+/* ================================================================================= */
+
+/* =============================== RODAPÉ DA PÁGINA ================================ */
+
 footer{
     color: white;
     text-align: center;
     margin-top: 20px;
+    padding-top: 50px;
+    margin-bottom: 0px;
+    background-image: linear-gradient(to bottom, transparent, rgb(0, 0, 2) 50%);
+    font-size: 14px;
 }
+h3{
+    font-family: 'Rampart One';
+    margin-bottom: 15px;
+}
+footer > a{
+    margin: 0px 15px;
+    color: #cacaca;
+    text-decoration: none;
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    line-height: 45px;
+    color: #cacaca;
+}
+/* ================================================================================= */
