@@ -66,7 +66,7 @@ input::placeholder {
   font-weight: bold;
   margin-bottom: 20px;
   cursor: pointer;
-  background-color: rgb(2, 1, 65);
+  background-color: #020141;
   color: white;
   border-color: rgb(2, 1, 65);
 }
