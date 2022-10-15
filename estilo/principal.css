@@ -54,7 +54,7 @@ nav li > a{
     text-decoration: none;
     font-size: 2.5em;
     font-family: 'Montserrat';
-    color: #9b9bc7;
+    color: #c7c7e2;
     font-weight: bold;
 }
 #area-principal{
@@ -166,8 +166,13 @@ footer{
     font-size: 14px;
 }
 h3{
-    font-family: 'Rampart One';
+    font-family: 'Montserrat';
     margin-bottom: 20px;
+    color: #c7c7e2;
+    font-weight: bold;
+}
+h3 > #logotipo{
+    width: 45px;
 }
 footer > a{
     margin: 0px 15px;
