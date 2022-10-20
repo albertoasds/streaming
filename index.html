@@ -45,5 +45,9 @@
         </form>
     </div>
 </body>
-<?php if(isset($_GET['alerta'])){echo "<script language='javascript' >alerta('Atenção!', 'Email já Cadastrado', 'erro');</script>";}?>
+<?php
+$alerta = $_GET['alerta']; 
+if($alerta == 1){echo "<script language='javascript' >alerta('Atenção!', 'Email já Cadastrado', 'erro');</script>";
+}elseif($alerta == 0){echo "<script language='javascript' >alerta('Sucesso!', 'Cliente Cadastrado com sucesso', 'sucesso');</script>";}
+?>
 </html>
