@@ -11,9 +11,8 @@ $camposusuario = mysqli_fetch_array($querylogar);
 if(mysqli_num_rows($querylogar) > 0){
     header("location:multicine.html");
 }else{
-    //echo "<script>alert('Email não Cadastrado');</script>";
-    echo "<script>setTimeout(function(){alert('Email não Cadastrado'), window.location = 'index.html'; },1000)</script>";
-    
+    $alerta = 1;
+    header("location:index.html?alerta=$alerta");  
 }
 
 ?>

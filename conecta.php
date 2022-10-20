@@ -8,7 +8,7 @@ $dbUserName = 'root';
 // database senha
 $dbPass = '';
 //  databasename
-$DbName = 'multisine';
+$DbName = 'multicine';
 //  testa a conexão
 $db = mysqli_connect($Host, $dbUserName, $dbPass,$DbName) or die ("Could not connect");
 // //insira o nome do banco
