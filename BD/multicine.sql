@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50505
 File Encoding         : 65001
 
-Date: 2022-10-21 16:31:37
+Date: 2022-10-21 20:27:33
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -23,7 +23,7 @@ CREATE TABLE `ator` (
   `CODATOR` int(11) NOT NULL AUTO_INCREMENT,
   `NOME` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`CODATOR`)
-) ENGINE=InnoDB AUTO_INCREMENT=183 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=241 DEFAULT CHARSET=utf8mb4;
 
 -- ----------------------------
 -- Records of ator
@@ -195,6 +195,64 @@ INSERT INTO `ator` VALUES ('178', 'Michael Keaton');
 INSERT INTO `ator` VALUES ('179', 'Marisa Tomei');
 INSERT INTO `ator` VALUES ('181', 'Emily Alyn Lind');
 INSERT INTO `ator` VALUES ('182', 'Junko Bailey');
+INSERT INTO `ator` VALUES ('183', 'Ella Purnell');
+INSERT INTO `ator` VALUES ('184', 'Hailee Steinfeld');
+INSERT INTO `ator` VALUES ('185', 'Katie Leung');
+INSERT INTO `ator` VALUES ('186', 'Kevin Alejandro');
+INSERT INTO `ator` VALUES ('187', 'Harry Lloyd');
+INSERT INTO `ator` VALUES ('188', 'Malina Weissman');
+INSERT INTO `ator` VALUES ('189', 'Neil Patrick Harris');
+INSERT INTO `ator` VALUES ('190', 'Louis Hynes');
+INSERT INTO `ator` VALUES ('191', 'Patrick Warburton');
+INSERT INTO `ator` VALUES ('192', 'Nathan Fillion');
+INSERT INTO `ator` VALUES ('193', 'Emilia Clarke');
+INSERT INTO `ator` VALUES ('194', 'Sophie Turner');
+INSERT INTO `ator` VALUES ('195', 'Maisie Williams');
+INSERT INTO `ator` VALUES ('196', 'Lena Headey');
+INSERT INTO `ator` VALUES ('197', 'Dafne Keen');
+INSERT INTO `ator` VALUES ('198', 'Ruth Wilson');
+INSERT INTO `ator` VALUES ('199', 'Amir Wilson');
+INSERT INTO `ator` VALUES ('200', 'Lin-Manuel Miranda');
+INSERT INTO `ator` VALUES ('201', 'Milly Alcock');
+INSERT INTO `ator` VALUES ('202', 'Ruth Wilson');
+INSERT INTO `ator` VALUES ('203', 'Matt Smith');
+INSERT INTO `ator` VALUES ('204', 'Emma DArcy');
+INSERT INTO `ator` VALUES ('205', 'Emily Carey');
+INSERT INTO `ator` VALUES ('206', 'Morfydd Clark');
+INSERT INTO `ator` VALUES ('207', 'Robert Aramayo');
+INSERT INTO `ator` VALUES ('208', 'Sophia Nomvete');
+INSERT INTO `ator` VALUES ('209', 'Markella Kavenagh');
+INSERT INTO `ator` VALUES ('210', 'Tyroe Muhafidin');
+INSERT INTO `ator` VALUES ('211', 'Rosamund Pike');
+INSERT INTO `ator` VALUES ('212', 'Barney Harris');
+INSERT INTO `ator` VALUES ('213', 'Zoë Robins');
+INSERT INTO `ator` VALUES ('214', 'Josha Stradowski');
+INSERT INTO `ator` VALUES ('215', 'Marcus Rutherford');
+INSERT INTO `ator` VALUES ('216', 'Tom Sturridge');
+INSERT INTO `ator` VALUES ('217', 'Jenna Coleman');
+INSERT INTO `ator` VALUES ('218', 'Gwendoline Christie');
+INSERT INTO `ator` VALUES ('219', 'Boyd Holbrook');
+INSERT INTO `ator` VALUES ('220', 'Mason Alexander Park');
+INSERT INTO `ator` VALUES ('221', 'Ben Barnes');
+INSERT INTO `ator` VALUES ('222', 'Jessie Mei Li');
+INSERT INTO `ator` VALUES ('223', 'Freddy Carter');
+INSERT INTO `ator` VALUES ('224', 'Danielle Galligan');
+INSERT INTO `ator` VALUES ('225', 'Mason Alexander Park');
+INSERT INTO `ator` VALUES ('226', 'Millie Bobby Brown');
+INSERT INTO `ator` VALUES ('227', 'Finn Wolfhard');
+INSERT INTO `ator` VALUES ('228', 'Noah Schnapp');
+INSERT INTO `ator` VALUES ('229', 'Caleb McLaughlin');
+INSERT INTO `ator` VALUES ('230', 'Sadie Sink');
+INSERT INTO `ator` VALUES ('231', 'Henry Cavill');
+INSERT INTO `ator` VALUES ('232', 'Anya Chalotra');
+INSERT INTO `ator` VALUES ('233', 'Freya Allan');
+INSERT INTO `ator` VALUES ('234', 'Joey Batey');
+INSERT INTO `ator` VALUES ('235', 'MyAnna Buring');
+INSERT INTO `ator` VALUES ('236', 'Aidan Gallagher');
+INSERT INTO `ator` VALUES ('237', 'Elliot Page');
+INSERT INTO `ator` VALUES ('238', 'Robert Sheehan');
+INSERT INTO `ator` VALUES ('239', 'Tom Hopper');
+INSERT INTO `ator` VALUES ('240', 'Génesis Rodríguez');
 
 -- ----------------------------
 -- Table structure for atuacaofilme
@@ -408,6 +466,66 @@ CREATE TABLE `atuacaoserie` (
 -- ----------------------------
 -- Records of atuacaoserie
 -- ----------------------------
+INSERT INTO `atuacaoserie` VALUES ('101', '4');
+INSERT INTO `atuacaoserie` VALUES ('174', '3');
+INSERT INTO `atuacaoserie` VALUES ('183', '1');
+INSERT INTO `atuacaoserie` VALUES ('184', '1');
+INSERT INTO `atuacaoserie` VALUES ('185', '1');
+INSERT INTO `atuacaoserie` VALUES ('186', '1');
+INSERT INTO `atuacaoserie` VALUES ('187', '1');
+INSERT INTO `atuacaoserie` VALUES ('188', '2');
+INSERT INTO `atuacaoserie` VALUES ('189', '2');
+INSERT INTO `atuacaoserie` VALUES ('190', '2');
+INSERT INTO `atuacaoserie` VALUES ('191', '2');
+INSERT INTO `atuacaoserie` VALUES ('192', '2');
+INSERT INTO `atuacaoserie` VALUES ('193', '3');
+INSERT INTO `atuacaoserie` VALUES ('194', '3');
+INSERT INTO `atuacaoserie` VALUES ('195', '3');
+INSERT INTO `atuacaoserie` VALUES ('196', '3');
+INSERT INTO `atuacaoserie` VALUES ('197', '4');
+INSERT INTO `atuacaoserie` VALUES ('198', '4');
+INSERT INTO `atuacaoserie` VALUES ('199', '4');
+INSERT INTO `atuacaoserie` VALUES ('200', '4');
+INSERT INTO `atuacaoserie` VALUES ('201', '5');
+INSERT INTO `atuacaoserie` VALUES ('202', '5');
+INSERT INTO `atuacaoserie` VALUES ('203', '5');
+INSERT INTO `atuacaoserie` VALUES ('204', '5');
+INSERT INTO `atuacaoserie` VALUES ('205', '5');
+INSERT INTO `atuacaoserie` VALUES ('206', '6');
+INSERT INTO `atuacaoserie` VALUES ('207', '6');
+INSERT INTO `atuacaoserie` VALUES ('208', '6');
+INSERT INTO `atuacaoserie` VALUES ('209', '6');
+INSERT INTO `atuacaoserie` VALUES ('210', '6');
+INSERT INTO `atuacaoserie` VALUES ('211', '7');
+INSERT INTO `atuacaoserie` VALUES ('212', '7');
+INSERT INTO `atuacaoserie` VALUES ('213', '7');
+INSERT INTO `atuacaoserie` VALUES ('214', '7');
+INSERT INTO `atuacaoserie` VALUES ('215', '7');
+INSERT INTO `atuacaoserie` VALUES ('216', '8');
+INSERT INTO `atuacaoserie` VALUES ('217', '8');
+INSERT INTO `atuacaoserie` VALUES ('218', '8');
+INSERT INTO `atuacaoserie` VALUES ('219', '8');
+INSERT INTO `atuacaoserie` VALUES ('220', '8');
+INSERT INTO `atuacaoserie` VALUES ('221', '9');
+INSERT INTO `atuacaoserie` VALUES ('222', '9');
+INSERT INTO `atuacaoserie` VALUES ('223', '9');
+INSERT INTO `atuacaoserie` VALUES ('224', '9');
+INSERT INTO `atuacaoserie` VALUES ('225', '9');
+INSERT INTO `atuacaoserie` VALUES ('226', '10');
+INSERT INTO `atuacaoserie` VALUES ('227', '10');
+INSERT INTO `atuacaoserie` VALUES ('228', '10');
+INSERT INTO `atuacaoserie` VALUES ('229', '10');
+INSERT INTO `atuacaoserie` VALUES ('230', '10');
+INSERT INTO `atuacaoserie` VALUES ('231', '11');
+INSERT INTO `atuacaoserie` VALUES ('232', '11');
+INSERT INTO `atuacaoserie` VALUES ('233', '11');
+INSERT INTO `atuacaoserie` VALUES ('234', '11');
+INSERT INTO `atuacaoserie` VALUES ('235', '11');
+INSERT INTO `atuacaoserie` VALUES ('236', '11');
+INSERT INTO `atuacaoserie` VALUES ('237', '12');
+INSERT INTO `atuacaoserie` VALUES ('238', '12');
+INSERT INTO `atuacaoserie` VALUES ('239', '12');
+INSERT INTO `atuacaoserie` VALUES ('240', '12');
 
 -- ----------------------------
 -- Table structure for empresa
@@ -460,7 +578,7 @@ CREATE TABLE `filmes` (
 -- ----------------------------
 -- Records of filmes
 -- ----------------------------
-INSERT INTO `filmes` VALUES ('1', 'BOHEMIAN RHAPSODY', '2018', 'Bryan Singer, Dexter Fletcher', 'Freddie Mercury (Rami Malek) e seus companheiros Brian May (Gwilyn Lee), Roger Taylor (Ben Hardy) e John Deacon (Joseph Mazzello) mudam o mundo da música para sempre ao formar a banda Queen, durante a década de 1970. Porém, quando o estilo de vida extravagante de Mercury começa a sair do controle, a banda tem que enfrentar o desafio de conciliar a fama e o sucesso com suas vidas pessoais cada vez mais complicadas', '22', '13', '14 anos', null);
+INSERT INTO `filmes` VALUES ('1', 'BOHEMIAN RHAPSODY', '2018', 'Bryan Singer, Dexter Fletcher', 'Freddie Mercury (Rami Malek) e seus companheiros Brian May (Gwilyn Lee), Roger Taylor (Ben Hardy) e John Deacon (Joseph Mazzello) mudam o mundo da música para sempre ao formar a banda Queen, durante a década de 1970. Porém, quando o estilo de vida extravagante de Mercury começa a sair do controle, a banda tem que enfrentar o desafio de conciliar a fama e o sucesso com suas vidas pessoais cada vez mais complicadas', '22', '13', '14 anos', '/imagens/Filmes/drama/bohemian.webp');
 INSERT INTO `filmes` VALUES ('2', 'A MENINA QUE ROUBAVA LIVROS', '2013', 'Brian Percival', 'Durante a Segunda Guerra Mundial, uma jovem garota chamada Liesel Meminger (Sophie Nélisse) sobrevive fora de Munique através dos livros que ela rouba. Ajudada por seu pai adotivo (Geoffrey Rush), ela aprende a ler e partilhar livros com seus amigos, incluindo um homem judeu (Ben Schnetzer) que vive na clandestinidade em sua casa. Enquanto não está lendo ou estudando, ela realiza algumas tarefas para a mãe (Emily Watson) e brinca com a amigo Rudy (Nico Liersch).', '20', '13', '10 anos', null);
 INSERT INTO `filmes` VALUES ('3', 'CISNE NEGRO', '2010', 'Darren Aronofsky', 'Beth MacIntyre (Winona Ryder), a primeira bailarina de uma companhia, está prestes a se aposentar. O posto fica com Nina (Natalie Portman), mas ela possui sérios problemas pessoais, especialmente com sua mãe (Barbara Hershey). Pressionada por Thomas Leroy (Vincent Cassel), um exigente diretor artístico, ela passa a enxergar uma concorrência desleal vindo de suas colegas, em especial Lilly (Mila Kunis). Em meio a tudo isso, busca a perfeição nos ensaios para o maior desafio de sua carreira: interpretar a Rainha Cisne em uma adaptação de \"O Lago dos Cisnes\".', '13', '26', '10 anos', null);
 INSERT INTO `filmes` VALUES ('4', 'CLICK', '2006', 'Frank Coraci', 'Em Click, Michael Newman (Adam Sandler) é casado com Donna (Kate Beckinsale) e tem dois filhos. Ele tem dificuldades em ver sua família, visto que passa bastante tempo no escritório de arquitetura em que trabalha, no intuito de chamar a atenção de seu chefe (David Hasselhoff). Porém, após entrar em uma loja com intuito de comprar um novo controle remoto para sua casa, parece ter encontrado uma solução para seu problema. Isso porque, ao chegar no local, conhece o excêntrico funcionário Morty (Christopher Walken), e acaba comprando um controle remoto experimental, com a promessa de facilitar sua', '5', '16', '12 anos', null);
@@ -559,11 +677,23 @@ CREATE TABLE `series` (
   KEY `SUBGENERO` (`SUBGENERO`),
   CONSTRAINT `series_ibfk_1` FOREIGN KEY (`CODGENERO`) REFERENCES `genero` (`CODGENERO`),
   CONSTRAINT `series_ibfk_2` FOREIGN KEY (`SUBGENERO`) REFERENCES `genero` (`CODGENERO`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4;
 
 -- ----------------------------
 -- Records of series
 -- ----------------------------
+INSERT INTO `series` VALUES ('1', 'ARCANE', '2021', 'Alex Yee, Christian Linke', 'Em meio ao conflito entre as cidades-gêmeas de Piltover e Zaun, duas irmãs lutam em lados opostos de uma guerra entre tecnologias mágicas e convicções incompatíveis.', '1', '18', '1', 'Livre');
+INSERT INTO `series` VALUES ('2', 'Lemony Snicket: Desventuras em Série', '2017', 'Daniel Handler', 'Os órfãos Baudelaire enfrentam dificuldades, obstáculos e até adultos em sua corrida para descobrir os segredos da família.', '21', '13', '3', '12 anos');
+INSERT INTO `series` VALUES ('3', 'GAME OF THRONES', '2011', ' David Benioff, George R. R. Martin, D. B. Weiss, ', 'Sucesso entre os livros mais vendidos, a série de obras \"A Song of Ice and Fire\", de George R.R. Martin, é levada à tela quando HBO decide navegar a fundo pelo gênero e recriar a fantasia medieval épica. Este é o retrato de duas famílias poderosas - reis e rainhas, cavaleiros e renegados, homens honestos e mentirosos - disputando um jogo mortal pelo controle dos Sete Reinos de Westeros para assumir o Trono de Ferro. A série foi filmada em Malta e no norte da Irlanda, tendo participação do escritor dos livros.', '13', '1', '8', '18 anos');
+INSERT INTO `series` VALUES ('4', 'His Dark Materials', '2019', 'Philip Pullman, Jack Thorne, Namsi Khan, Sarah Qui', 'Durante sua busca por um amigo sequestrado, uma valente garota chamada Lyra descobre uma trama sinistra envolvendo crianças desaparecidas e um fenômeno misterioso chamado Dust.', '21', '1', '3', '14 anos');
+INSERT INTO `series` VALUES ('5', 'A CASA DO DRAGÃO', '2022', 'Miguel Sapochnik', 'Os apoiadores de Aegon Targaryen entram em conflito com os adeptos de sua meia-irmã, Rhaenyra, pelo trono de Viserys I, seu falecido pai, iniciando uma guerra civil cerca de 200 anos antes dos eventos retratados em \"Game of Thrones\".', '13', '1', '1', '16 anos');
+INSERT INTO `series` VALUES ('6', 'O Senhor dos Anéis: Os Anéis de Poder', '2022', 'Patrick McKay, John D. Payne, Gennifer Hutchison, ', 'Em uma época de paz, um grupo de guerreiros enfrenta o ressurgimento do mal na Terra-Média. Das profundezas escuras das Montanhas de Névoa, das majestosas florestas de Lindon, até os confins do mapa, o legado desses heróis é maior do que suas vidas.', '13', '1', '1', '16 anos');
+INSERT INTO `series` VALUES ('7', 'A RODA DO TEMPO', '2021', 'Robert Jordan; Brandon Sanderson ', 'Moiraine, membro de uma organização mágica, leva cinco jovens em uma jornada cheia de desafios, acreditando que um deles pode ser o Dragão Renascido, um indivíduo poderoso que, segundo a profecia, irá salvar ou destruir o mundo.', '1', '13', '1', '16 anos');
+INSERT INTO `series` VALUES ('8', 'THE SANDMAN', '2022', ' Neil Gaiman, Allan Heinberg, David S. Goyer', 'Após anos aprisionado, Morpheus, o Rei dos Sonhos, embarca em uma jornada entre mundos para recuperar o que lhe foi roubado e restaurar seu poder.', '13', '1', '1', '16 anos');
+INSERT INTO `series` VALUES ('9', 'SOMBRA E OSSOS', '2021', 'Leigh Bardugo, Eric Heisserer, Vanya Asher, Christ', 'Forças sinistras conspiram contra uma jovem depois dela revelar um poder capaz de unir seu mundo.', '16', '21', '1', '16 anos');
+INSERT INTO `series` VALUES ('10', 'STRANGER THINGS', '2016', 'Matt Duffer, Ross Duffer, Jessie Nickson-Lopez, Ka', 'Um grupo de amigos se envolve em uma série de eventos sobrenaturais na pacata cidade de Hawkins. Eles enfrentam criaturas monstruosas, agências secretas do governo e se aventuram em dimensões paralelas.', '25', '27', '4', '16 anos');
+INSERT INTO `series` VALUES ('11', 'The Witcher', '2019', 'Konrad Tomaszkiewicz', 'O mutante Geralt de Rívia é um caçador de monstros que luta para encontrar seu lugar em um mundo onde as pessoas, muitas vezes, são mais perversas do que as criaturas selvagens.', '2', '16', '2', '18 anos');
+INSERT INTO `series` VALUES ('12', 'THE UMBRELLA ACADEMY', '2019', 'Steve Blackman, Jeremy Slater', 'Irmãos com poderes extraordinários se reúnem depois de passar muito tempo afastados e descobrem surpreendentes segredos de família. A família enfrenta viagens no tempo, assassinos e o fim do mundo.', '1', '2', '3', '18 anos');
 
 -- ----------------------------
 -- Table structure for usuarios
