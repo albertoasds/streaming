@@ -12,7 +12,7 @@ if(mysqli_num_rows($querylogar) > 0){
     header("location:multicine.html");
 }else{
     $alerta = 1;
-    header("location:index.html?alerta=$alerta");  
+    header("location:index.php?alerta=$alerta");  
 }
 
 ?>

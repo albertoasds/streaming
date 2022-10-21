@@ -18,7 +18,7 @@
 
 <body>
     <div class="container-login">
-        <form action="logar.php" class="form" method="get">
+        <form action="controle/logar.php" class="form" method="get">
             <h1 class="title">Entrar</h1>
             <div class="email">
                 <input type="email" name="email" placeholder="Seu email" required>
@@ -39,15 +39,18 @@
             </div>
 
             <p>Novo por aqui ?</p>
-            <a href="./cadastro.html" class="cadastro-btn">Cadastre-se</a>
+            <a href="./cadastro.php" class="cadastro-btn">Cadastre-se</a>
 
 
         </form>
     </div>
 </body>
-<?
+<?php
+if(isset($_GET['alerta'])){
 $alerta = $_GET['alerta']; 
-if($alerta == 1){echo "<script language='javascript' >alerta('Atenção!', 'Email já Cadastrado', 'erro');</script>";
+if($alerta == 1){echo "<script language='javascript' >alerta('Atenção!', 'Email não Cadastrado', 'erro');</script>";
 }elseif($alerta == 0){echo "<script language='javascript' >alerta('Sucesso!', 'Cliente Cadastrado com sucesso', 'sucesso');</script>";}
+}
+
 ?>
 </html>
