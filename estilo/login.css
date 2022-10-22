@@ -37,7 +37,7 @@ a {
   margin-bottom: 20px;
 }
 
-.email input, .senha input, .confirmar-senha input, .btn {
+.email input, .senha input, .confirmar-senha input, .nome input, .btn {
   width: 80%;
 }
 
