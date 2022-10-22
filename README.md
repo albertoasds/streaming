@@ -29,3 +29,12 @@
 ```
 https://rubensgabriel.github.io/streaming/
 ```
+
+
+## Instrução  para utilização 
+>Utilizar o xampp 
+- iniciar o Apache
+- iniciar o Mysql
+- colar a pasta do projerto no \xampp\htdocs
+- no navegador digitar http://localhost/streaming/
+
