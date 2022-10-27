@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50505
 File Encoding         : 65001
 
-Date: 2022-10-22 14:39:04
+Date: 2022-10-27 14:57:56
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -23,7 +23,7 @@ CREATE TABLE `ator` (
   `CODATOR` int(11) NOT NULL AUTO_INCREMENT,
   `NOME` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`CODATOR`)
-) ENGINE=InnoDB AUTO_INCREMENT=241 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=407 DEFAULT CHARSET=utf8mb4;
 
 -- ----------------------------
 -- Records of ator
@@ -253,6 +253,172 @@ INSERT INTO `ator` VALUES ('237', 'Elliot Page');
 INSERT INTO `ator` VALUES ('238', 'Robert Sheehan');
 INSERT INTO `ator` VALUES ('239', 'Tom Hopper');
 INSERT INTO `ator` VALUES ('240', 'Génesis Rodríguez');
+INSERT INTO `ator` VALUES ('241', 'Rob Lowe');
+INSERT INTO `ator` VALUES ('242', 'Ronen Rubinstein');
+INSERT INTO `ator` VALUES ('243', 'Rafael L. Silva');
+INSERT INTO `ator` VALUES ('244', 'Liv Tyler');
+INSERT INTO `ator` VALUES ('245', 'Lisa Edelstein');
+INSERT INTO `ator` VALUES ('246', 'David Boreanaz');
+INSERT INTO `ator` VALUES ('247', 'Emily Deschanel');
+INSERT INTO `ator` VALUES ('248', 'Michaela Conlin');
+INSERT INTO `ator` VALUES ('249', 'T. J. Thyne');
+INSERT INTO `ator` VALUES ('250', 'Tamara Taylor');
+INSERT INTO `ator` VALUES ('251', 'Bob Odenkirk');
+INSERT INTO `ator` VALUES ('252', 'Rhea Seehorn');
+INSERT INTO `ator` VALUES ('253', 'Jonathan Banks');
+INSERT INTO `ator` VALUES ('254', 'Michael Mando');
+INSERT INTO `ator` VALUES ('255', 'Patrick Fabian');
+INSERT INTO `ator` VALUES ('256', 'Omar Sy');
+INSERT INTO `ator` VALUES ('257', 'Shirine Boutella');
+INSERT INTO `ator` VALUES ('258', 'Ludivine Sagnier');
+INSERT INTO `ator` VALUES ('259', 'Clotilde Hesme');
+INSERT INTO `ator` VALUES ('260', 'Soufiane Guerrab');
+INSERT INTO `ator` VALUES ('261', 'Gina Torres');
+INSERT INTO `ator` VALUES ('262', 'Gabriel Macht');
+INSERT INTO `ator` VALUES ('263', 'Rick Hoffman');
+INSERT INTO `ator` VALUES ('264', 'Isabel Arraiza');
+INSERT INTO `ator` VALUES ('265', 'Simon Kassianides');
+INSERT INTO `ator` VALUES ('266', 'Kate Walsh');
+INSERT INTO `ator` VALUES ('267', 'KaDee Strickland');
+INSERT INTO `ator` VALUES ('268', 'Paul Adelstein');
+INSERT INTO `ator` VALUES ('269', 'Amy Brenneman');
+INSERT INTO `ator` VALUES ('270', 'Tim Daly');
+INSERT INTO `ator` VALUES ('271', 'Meghan, Duquesa de Sussex');
+INSERT INTO `ator` VALUES ('272', 'Patrick J. Adams');
+INSERT INTO `ator` VALUES ('273', 'Sarah Rafferty');
+INSERT INTO `ator` VALUES ('274', 'Claire Foy.');
+INSERT INTO `ator` VALUES ('275', 'Matt Smith (XI)');
+INSERT INTO `ator` VALUES ('276', 'Vanessa Kirby.');
+INSERT INTO `ator` VALUES ('277', 'Eileen Atkins.');
+INSERT INTO `ator` VALUES ('278', 'Jeremy Northam.');
+INSERT INTO `ator` VALUES ('279', 'Jeremy Allen White');
+INSERT INTO `ator` VALUES ('280', 'Ebon Moss-Bachrach');
+INSERT INTO `ator` VALUES ('281', 'Abby Elliott');
+INSERT INTO `ator` VALUES ('282', 'Ayo Edebiri');
+INSERT INTO `ator` VALUES ('283', 'Matty Matheson');
+INSERT INTO `ator` VALUES ('284', 'Evan Peters');
+INSERT INTO `ator` VALUES ('285', 'Kathryn Hahn');
+INSERT INTO `ator` VALUES ('286', 'Kat Dennings');
+INSERT INTO `ator` VALUES ('287', 'Paul Bettany');
+INSERT INTO `ator` VALUES ('288', 'Penn Badgley');
+INSERT INTO `ator` VALUES ('289', 'Victoria Pedretti');
+INSERT INTO `ator` VALUES ('290', 'Tati Gabrielle');
+INSERT INTO `ator` VALUES ('291', 'Elizabeth Lail');
+INSERT INTO `ator` VALUES ('292', 'Dylan Arnold');
+INSERT INTO `ator` VALUES ('293', 'Regé-Jean Page');
+INSERT INTO `ator` VALUES ('294', 'Phoebe Dynevor');
+INSERT INTO `ator` VALUES ('295', 'Jonathan Bailey');
+INSERT INTO `ator` VALUES ('296', 'Simone Ashley');
+INSERT INTO `ator` VALUES ('297', 'Nicola Coughlan');
+INSERT INTO `ator` VALUES ('298', 'Orlando Bloom');
+INSERT INTO `ator` VALUES ('299', 'Cara Delevingne');
+INSERT INTO `ator` VALUES ('300', 'Arty Froushan');
+INSERT INTO `ator` VALUES ('301', 'Tamzin Merchant');
+INSERT INTO `ator` VALUES ('302', 'Karla Crome');
+INSERT INTO `ator` VALUES ('303', 'Ellen Pompeo');
+INSERT INTO `ator` VALUES ('304', 'Chandra Wilson');
+INSERT INTO `ator` VALUES ('305', 'Justin Chambers');
+INSERT INTO `ator` VALUES ('306', 'Sandra Oh');
+INSERT INTO `ator` VALUES ('307', 'Kit Connor');
+INSERT INTO `ator` VALUES ('308', 'Joe Locke');
+INSERT INTO `ator` VALUES ('309', 'Yasmin Finney');
+INSERT INTO `ator` VALUES ('310', 'Sebastian Croft');
+INSERT INTO `ator` VALUES ('311', 'William Gao');
+INSERT INTO `ator` VALUES ('312', 'Gina Rodriguez');
+INSERT INTO `ator` VALUES ('313', 'Justin Baldoni');
+INSERT INTO `ator` VALUES ('314', 'Yael Grobglas');
+INSERT INTO `ator` VALUES ('315', 'Jaime Camil');
+INSERT INTO `ator` VALUES ('316', 'Brett Dier');
+INSERT INTO `ator` VALUES ('317', 'Michael Cimino');
+INSERT INTO `ator` VALUES ('318', 'George Sear');
+INSERT INTO `ator` VALUES ('319', 'Nick Robinson');
+INSERT INTO `ator` VALUES ('320', 'Mason Gooding');
+INSERT INTO `ator` VALUES ('321', 'Anthony Turpel');
+INSERT INTO `ator` VALUES ('322', 'Joanna García');
+INSERT INTO `ator` VALUES ('323', 'Brooke Elliott');
+INSERT INTO `ator` VALUES ('324', 'Jamie Lynn Spears');
+INSERT INTO `ator` VALUES ('325', 'Justin Bruening');
+INSERT INTO `ator` VALUES ('326', 'Anneliese Judge');
+INSERT INTO `ator` VALUES ('327', 'Dev Patel');
+INSERT INTO `ator` VALUES ('328', 'Minnie Driver');
+INSERT INTO `ator` VALUES ('329', 'Anna Paquin');
+INSERT INTO `ator` VALUES ('330', 'Sam Heughan');
+INSERT INTO `ator` VALUES ('331', 'Caitriona Balfe');
+INSERT INTO `ator` VALUES ('332', 'Richard Rankin');
+INSERT INTO `ator` VALUES ('333', 'Sophie Skelton');
+INSERT INTO `ator` VALUES ('334', 'Tobias Menzies');
+INSERT INTO `ator` VALUES ('335', 'Milo Ventimiglia');
+INSERT INTO `ator` VALUES ('336', 'Chrissy Metz');
+INSERT INTO `ator` VALUES ('337', 'Sterling K. Brown');
+INSERT INTO `ator` VALUES ('338', 'Mandy Moore');
+INSERT INTO `ator` VALUES ('339', 'Justin Hartley');
+INSERT INTO `ator` VALUES ('340', 'Steve Carell');
+INSERT INTO `ator` VALUES ('341', 'Jim Rash');
+INSERT INTO `ator` VALUES ('342', 'Sam Rockwell');
+INSERT INTO `ator` VALUES ('343', 'Toni Collette');
+INSERT INTO `ator` VALUES ('344', 'Nat Faxon');
+INSERT INTO `ator` VALUES ('345', 'Alexandra Breckenridge');
+INSERT INTO `ator` VALUES ('346', 'Martin Henderson');
+INSERT INTO `ator` VALUES ('347', 'Tim Matheson');
+INSERT INTO `ator` VALUES ('348', 'Annette OToole');
+INSERT INTO `ator` VALUES ('349', 'Ben Hollingsworth');
+INSERT INTO `ator` VALUES ('350', 'Melissa Fumero');
+INSERT INTO `ator` VALUES ('351', 'Andy Samberg');
+INSERT INTO `ator` VALUES ('352', 'Stephanie Beatriz');
+INSERT INTO `ator` VALUES ('353', 'Chelsea Peretti');
+INSERT INTO `ator` VALUES ('354', 'Terry Crews');
+INSERT INTO `ator` VALUES ('355', 'Kaley Cuoco');
+INSERT INTO `ator` VALUES ('356', 'Jim Parsons');
+INSERT INTO `ator` VALUES ('357', 'Johnny Galecki');
+INSERT INTO `ator` VALUES ('358', 'Simon Helberg');
+INSERT INTO `ator` VALUES ('359', 'Mayim Bialik');
+INSERT INTO `ator` VALUES ('360', 'Andrew Scott');
+INSERT INTO `ator` VALUES ('361', 'Sian Clifford');
+INSERT INTO `ator` VALUES ('362', 'Brett Gelman');
+INSERT INTO `ator` VALUES ('363', 'Olivia Colman');
+INSERT INTO `ator` VALUES ('364', 'Jenny Rainsford');
+INSERT INTO `ator` VALUES ('365', 'Jennifer Aninston');
+INSERT INTO `ator` VALUES ('366', 'Lisa Kudrow');
+INSERT INTO `ator` VALUES ('367', 'David Schwimmer');
+INSERT INTO `ator` VALUES ('368', 'Matthew Perry');
+INSERT INTO `ator` VALUES ('369', 'Couteney Cox');
+INSERT INTO `ator` VALUES ('370', 'Ted Danson');
+INSERT INTO `ator` VALUES ('371', 'Willian Jackson');
+INSERT INTO `ator` VALUES ('372', 'Manny Jacinto');
+INSERT INTO `ator` VALUES ('373', 'Kristen Bell');
+INSERT INTO `ator` VALUES ('374', 'Jameela Jamil');
+INSERT INTO `ator` VALUES ('375', 'Josh Radnor');
+INSERT INTO `ator` VALUES ('376', 'Cobie Smulders');
+INSERT INTO `ator` VALUES ('377', 'Alyson Hannigan');
+INSERT INTO `ator` VALUES ('378', 'Jason Segel');
+INSERT INTO `ator` VALUES ('379', 'Sofia Vergana');
+INSERT INTO `ator` VALUES ('380', 'Sarag Hyland');
+INSERT INTO `ator` VALUES ('381', 'Julie Bowen');
+INSERT INTO `ator` VALUES ('382', 'Eric Stonestreet');
+INSERT INTO `ator` VALUES ('383', 'Nolan Gould');
+INSERT INTO `ator` VALUES ('384', 'Justine Machado');
+INSERT INTO `ator` VALUES ('385', 'Todd Grinnell');
+INSERT INTO `ator` VALUES ('386', 'Isabella Gomez');
+INSERT INTO `ator` VALUES ('387', 'ackenzie Phillips');
+INSERT INTO `ator` VALUES ('388', 'Rita Moreno');
+INSERT INTO `ator` VALUES ('389', 'Tisha Campbell');
+INSERT INTO `ator` VALUES ('390', 'Meagan Good');
+INSERT INTO `ator` VALUES ('391', 'Brooklyn Sudano');
+INSERT INTO `ator` VALUES ('392', 'Jazz Raycole');
+INSERT INTO `ator` VALUES ('393', 'Serena Williams');
+INSERT INTO `ator` VALUES ('394', 'Tatiana Maslany');
+INSERT INTO `ator` VALUES ('395', 'Jamelaa Jamil');
+INSERT INTO `ator` VALUES ('396', 'Ginger Gonzaga');
+INSERT INTO `ator` VALUES ('397', 'Renee Elise Golsberry');
+INSERT INTO `ator` VALUES ('398', 'Patti Harrison');
+INSERT INTO `ator` VALUES ('399', 'Jenna Fisher');
+INSERT INTO `ator` VALUES ('400', 'Ellie Kemper');
+INSERT INTO `ator` VALUES ('401', 'Rainn Wilson');
+INSERT INTO `ator` VALUES ('402', 'Petter Krause');
+INSERT INTO `ator` VALUES ('403', 'Oliver Stark');
+INSERT INTO `ator` VALUES ('404', 'Angela Bassett');
+INSERT INTO `ator` VALUES ('405', 'Aisha Hinds');
+INSERT INTO `ator` VALUES ('406', 'Kenneth Choi');
 
 -- ----------------------------
 -- Table structure for atuacaofilme
@@ -466,7 +632,12 @@ CREATE TABLE `atuacaoserie` (
 -- ----------------------------
 -- Records of atuacaoserie
 -- ----------------------------
+INSERT INTO `atuacaoserie` VALUES ('56', '46');
+INSERT INTO `atuacaoserie` VALUES ('87', '31');
 INSERT INTO `atuacaoserie` VALUES ('101', '4');
+INSERT INTO `atuacaoserie` VALUES ('113', '26');
+INSERT INTO `atuacaoserie` VALUES ('136', '22');
+INSERT INTO `atuacaoserie` VALUES ('147', '31');
 INSERT INTO `atuacaoserie` VALUES ('174', '3');
 INSERT INTO `atuacaoserie` VALUES ('183', '1');
 INSERT INTO `atuacaoserie` VALUES ('184', '1');
@@ -475,6 +646,7 @@ INSERT INTO `atuacaoserie` VALUES ('186', '1');
 INSERT INTO `atuacaoserie` VALUES ('187', '1');
 INSERT INTO `atuacaoserie` VALUES ('188', '2');
 INSERT INTO `atuacaoserie` VALUES ('189', '2');
+INSERT INTO `atuacaoserie` VALUES ('189', '41');
 INSERT INTO `atuacaoserie` VALUES ('190', '2');
 INSERT INTO `atuacaoserie` VALUES ('191', '2');
 INSERT INTO `atuacaoserie` VALUES ('192', '2');
@@ -526,6 +698,175 @@ INSERT INTO `atuacaoserie` VALUES ('237', '12');
 INSERT INTO `atuacaoserie` VALUES ('238', '12');
 INSERT INTO `atuacaoserie` VALUES ('239', '12');
 INSERT INTO `atuacaoserie` VALUES ('240', '12');
+INSERT INTO `atuacaoserie` VALUES ('241', '13');
+INSERT INTO `atuacaoserie` VALUES ('242', '13');
+INSERT INTO `atuacaoserie` VALUES ('243', '13');
+INSERT INTO `atuacaoserie` VALUES ('244', '13');
+INSERT INTO `atuacaoserie` VALUES ('245', '13');
+INSERT INTO `atuacaoserie` VALUES ('246', '14');
+INSERT INTO `atuacaoserie` VALUES ('247', '14');
+INSERT INTO `atuacaoserie` VALUES ('248', '14');
+INSERT INTO `atuacaoserie` VALUES ('249', '14');
+INSERT INTO `atuacaoserie` VALUES ('250', '14');
+INSERT INTO `atuacaoserie` VALUES ('251', '15');
+INSERT INTO `atuacaoserie` VALUES ('252', '15');
+INSERT INTO `atuacaoserie` VALUES ('253', '15');
+INSERT INTO `atuacaoserie` VALUES ('254', '15');
+INSERT INTO `atuacaoserie` VALUES ('255', '15');
+INSERT INTO `atuacaoserie` VALUES ('256', '16');
+INSERT INTO `atuacaoserie` VALUES ('257', '16');
+INSERT INTO `atuacaoserie` VALUES ('258', '16');
+INSERT INTO `atuacaoserie` VALUES ('259', '16');
+INSERT INTO `atuacaoserie` VALUES ('260', '16');
+INSERT INTO `atuacaoserie` VALUES ('261', '17');
+INSERT INTO `atuacaoserie` VALUES ('262', '17');
+INSERT INTO `atuacaoserie` VALUES ('262', '19');
+INSERT INTO `atuacaoserie` VALUES ('263', '17');
+INSERT INTO `atuacaoserie` VALUES ('263', '19');
+INSERT INTO `atuacaoserie` VALUES ('264', '17');
+INSERT INTO `atuacaoserie` VALUES ('265', '17');
+INSERT INTO `atuacaoserie` VALUES ('266', '18');
+INSERT INTO `atuacaoserie` VALUES ('267', '18');
+INSERT INTO `atuacaoserie` VALUES ('268', '18');
+INSERT INTO `atuacaoserie` VALUES ('269', '18');
+INSERT INTO `atuacaoserie` VALUES ('270', '18');
+INSERT INTO `atuacaoserie` VALUES ('271', '19');
+INSERT INTO `atuacaoserie` VALUES ('272', '19');
+INSERT INTO `atuacaoserie` VALUES ('273', '19');
+INSERT INTO `atuacaoserie` VALUES ('274', '20');
+INSERT INTO `atuacaoserie` VALUES ('275', '20');
+INSERT INTO `atuacaoserie` VALUES ('276', '20');
+INSERT INTO `atuacaoserie` VALUES ('277', '20');
+INSERT INTO `atuacaoserie` VALUES ('278', '20');
+INSERT INTO `atuacaoserie` VALUES ('279', '21');
+INSERT INTO `atuacaoserie` VALUES ('280', '21');
+INSERT INTO `atuacaoserie` VALUES ('281', '21');
+INSERT INTO `atuacaoserie` VALUES ('282', '21');
+INSERT INTO `atuacaoserie` VALUES ('283', '21');
+INSERT INTO `atuacaoserie` VALUES ('284', '22');
+INSERT INTO `atuacaoserie` VALUES ('285', '22');
+INSERT INTO `atuacaoserie` VALUES ('286', '22');
+INSERT INTO `atuacaoserie` VALUES ('287', '22');
+INSERT INTO `atuacaoserie` VALUES ('288', '23');
+INSERT INTO `atuacaoserie` VALUES ('289', '23');
+INSERT INTO `atuacaoserie` VALUES ('290', '23');
+INSERT INTO `atuacaoserie` VALUES ('291', '23');
+INSERT INTO `atuacaoserie` VALUES ('292', '23');
+INSERT INTO `atuacaoserie` VALUES ('293', '24');
+INSERT INTO `atuacaoserie` VALUES ('294', '24');
+INSERT INTO `atuacaoserie` VALUES ('295', '24');
+INSERT INTO `atuacaoserie` VALUES ('296', '24');
+INSERT INTO `atuacaoserie` VALUES ('297', '24');
+INSERT INTO `atuacaoserie` VALUES ('298', '25');
+INSERT INTO `atuacaoserie` VALUES ('299', '25');
+INSERT INTO `atuacaoserie` VALUES ('300', '25');
+INSERT INTO `atuacaoserie` VALUES ('301', '25');
+INSERT INTO `atuacaoserie` VALUES ('302', '25');
+INSERT INTO `atuacaoserie` VALUES ('303', '26');
+INSERT INTO `atuacaoserie` VALUES ('304', '26');
+INSERT INTO `atuacaoserie` VALUES ('305', '26');
+INSERT INTO `atuacaoserie` VALUES ('306', '26');
+INSERT INTO `atuacaoserie` VALUES ('307', '27');
+INSERT INTO `atuacaoserie` VALUES ('308', '27');
+INSERT INTO `atuacaoserie` VALUES ('309', '27');
+INSERT INTO `atuacaoserie` VALUES ('310', '27');
+INSERT INTO `atuacaoserie` VALUES ('311', '27');
+INSERT INTO `atuacaoserie` VALUES ('312', '28');
+INSERT INTO `atuacaoserie` VALUES ('313', '28');
+INSERT INTO `atuacaoserie` VALUES ('314', '28');
+INSERT INTO `atuacaoserie` VALUES ('315', '28');
+INSERT INTO `atuacaoserie` VALUES ('316', '28');
+INSERT INTO `atuacaoserie` VALUES ('317', '29');
+INSERT INTO `atuacaoserie` VALUES ('318', '29');
+INSERT INTO `atuacaoserie` VALUES ('319', '29');
+INSERT INTO `atuacaoserie` VALUES ('320', '29');
+INSERT INTO `atuacaoserie` VALUES ('321', '29');
+INSERT INTO `atuacaoserie` VALUES ('322', '30');
+INSERT INTO `atuacaoserie` VALUES ('323', '30');
+INSERT INTO `atuacaoserie` VALUES ('324', '30');
+INSERT INTO `atuacaoserie` VALUES ('325', '30');
+INSERT INTO `atuacaoserie` VALUES ('326', '30');
+INSERT INTO `atuacaoserie` VALUES ('327', '31');
+INSERT INTO `atuacaoserie` VALUES ('328', '31');
+INSERT INTO `atuacaoserie` VALUES ('329', '31');
+INSERT INTO `atuacaoserie` VALUES ('330', '32');
+INSERT INTO `atuacaoserie` VALUES ('331', '32');
+INSERT INTO `atuacaoserie` VALUES ('332', '32');
+INSERT INTO `atuacaoserie` VALUES ('333', '32');
+INSERT INTO `atuacaoserie` VALUES ('334', '32');
+INSERT INTO `atuacaoserie` VALUES ('335', '33');
+INSERT INTO `atuacaoserie` VALUES ('336', '33');
+INSERT INTO `atuacaoserie` VALUES ('337', '33');
+INSERT INTO `atuacaoserie` VALUES ('338', '33');
+INSERT INTO `atuacaoserie` VALUES ('339', '33');
+INSERT INTO `atuacaoserie` VALUES ('340', '34');
+INSERT INTO `atuacaoserie` VALUES ('340', '46');
+INSERT INTO `atuacaoserie` VALUES ('341', '34');
+INSERT INTO `atuacaoserie` VALUES ('342', '34');
+INSERT INTO `atuacaoserie` VALUES ('343', '34');
+INSERT INTO `atuacaoserie` VALUES ('344', '34');
+INSERT INTO `atuacaoserie` VALUES ('345', '35');
+INSERT INTO `atuacaoserie` VALUES ('346', '35');
+INSERT INTO `atuacaoserie` VALUES ('347', '35');
+INSERT INTO `atuacaoserie` VALUES ('348', '35');
+INSERT INTO `atuacaoserie` VALUES ('349', '35');
+INSERT INTO `atuacaoserie` VALUES ('350', '36');
+INSERT INTO `atuacaoserie` VALUES ('351', '36');
+INSERT INTO `atuacaoserie` VALUES ('352', '36');
+INSERT INTO `atuacaoserie` VALUES ('353', '36');
+INSERT INTO `atuacaoserie` VALUES ('354', '36');
+INSERT INTO `atuacaoserie` VALUES ('355', '37');
+INSERT INTO `atuacaoserie` VALUES ('356', '37');
+INSERT INTO `atuacaoserie` VALUES ('357', '37');
+INSERT INTO `atuacaoserie` VALUES ('358', '37');
+INSERT INTO `atuacaoserie` VALUES ('359', '37');
+INSERT INTO `atuacaoserie` VALUES ('360', '38');
+INSERT INTO `atuacaoserie` VALUES ('361', '38');
+INSERT INTO `atuacaoserie` VALUES ('362', '38');
+INSERT INTO `atuacaoserie` VALUES ('363', '38');
+INSERT INTO `atuacaoserie` VALUES ('364', '38');
+INSERT INTO `atuacaoserie` VALUES ('365', '39');
+INSERT INTO `atuacaoserie` VALUES ('366', '39');
+INSERT INTO `atuacaoserie` VALUES ('367', '39');
+INSERT INTO `atuacaoserie` VALUES ('368', '39');
+INSERT INTO `atuacaoserie` VALUES ('369', '39');
+INSERT INTO `atuacaoserie` VALUES ('370', '40');
+INSERT INTO `atuacaoserie` VALUES ('371', '40');
+INSERT INTO `atuacaoserie` VALUES ('372', '40');
+INSERT INTO `atuacaoserie` VALUES ('373', '40');
+INSERT INTO `atuacaoserie` VALUES ('374', '40');
+INSERT INTO `atuacaoserie` VALUES ('375', '41');
+INSERT INTO `atuacaoserie` VALUES ('376', '41');
+INSERT INTO `atuacaoserie` VALUES ('377', '41');
+INSERT INTO `atuacaoserie` VALUES ('378', '41');
+INSERT INTO `atuacaoserie` VALUES ('379', '42');
+INSERT INTO `atuacaoserie` VALUES ('380', '42');
+INSERT INTO `atuacaoserie` VALUES ('381', '42');
+INSERT INTO `atuacaoserie` VALUES ('382', '42');
+INSERT INTO `atuacaoserie` VALUES ('383', '42');
+INSERT INTO `atuacaoserie` VALUES ('384', '43');
+INSERT INTO `atuacaoserie` VALUES ('385', '43');
+INSERT INTO `atuacaoserie` VALUES ('386', '43');
+INSERT INTO `atuacaoserie` VALUES ('387', '43');
+INSERT INTO `atuacaoserie` VALUES ('388', '43');
+INSERT INTO `atuacaoserie` VALUES ('389', '44');
+INSERT INTO `atuacaoserie` VALUES ('390', '44');
+INSERT INTO `atuacaoserie` VALUES ('391', '44');
+INSERT INTO `atuacaoserie` VALUES ('392', '44');
+INSERT INTO `atuacaoserie` VALUES ('393', '44');
+INSERT INTO `atuacaoserie` VALUES ('394', '45');
+INSERT INTO `atuacaoserie` VALUES ('395', '45');
+INSERT INTO `atuacaoserie` VALUES ('396', '45');
+INSERT INTO `atuacaoserie` VALUES ('397', '45');
+INSERT INTO `atuacaoserie` VALUES ('398', '45');
+INSERT INTO `atuacaoserie` VALUES ('399', '46');
+INSERT INTO `atuacaoserie` VALUES ('400', '46');
+INSERT INTO `atuacaoserie` VALUES ('401', '46');
+INSERT INTO `atuacaoserie` VALUES ('402', '47');
+INSERT INTO `atuacaoserie` VALUES ('403', '47');
+INSERT INTO `atuacaoserie` VALUES ('404', '47');
+INSERT INTO `atuacaoserie` VALUES ('405', '47');
+INSERT INTO `atuacaoserie` VALUES ('406', '47');
 
 -- ----------------------------
 -- Table structure for empresa
@@ -579,42 +920,42 @@ CREATE TABLE `filmes` (
 -- ----------------------------
 -- Records of filmes
 -- ----------------------------
-INSERT INTO `filmes` VALUES ('1', 'BOHEMIAN RHAPSODY', '2018', 'Bryan Singer, Dexter Fletcher', 'Freddie Mercury (Rami Malek) e seus companheiros Brian May (Gwilyn Lee), Roger Taylor (Ben Hardy) e John Deacon (Joseph Mazzello) mudam o mundo da música para sempre ao formar a banda Queen, durante a década de 1970. Porém, quando o estilo de vida extravagante de Mercury começa a sair do controle, a banda tem que enfrentar o desafio de conciliar a fama e o sucesso com suas vidas pessoais cada vez mais complicadas', '22', '13', '14 anos', '/imagens/Filmes/drama/bohemian.webp5', null);
-INSERT INTO `filmes` VALUES ('2', 'A MENINA QUE ROUBAVA LIVROS', '2013', 'Brian Percival', 'Durante a Segunda Guerra Mundial, uma jovem garota chamada Liesel Meminger (Sophie Nélisse) sobrevive fora de Munique através dos livros que ela rouba. Ajudada por seu pai adotivo (Geoffrey Rush), ela aprende a ler e partilhar livros com seus amigos, incluindo um homem judeu (Ben Schnetzer) que vive na clandestinidade em sua casa. Enquanto não está lendo ou estudando, ela realiza algumas tarefas para a mãe (Emily Watson) e brinca com a amigo Rudy (Nico Liersch).', '20', '13', '10 anos', null, null);
-INSERT INTO `filmes` VALUES ('3', 'CISNE NEGRO', '2010', 'Darren Aronofsky', 'Beth MacIntyre (Winona Ryder), a primeira bailarina de uma companhia, está prestes a se aposentar. O posto fica com Nina (Natalie Portman), mas ela possui sérios problemas pessoais, especialmente com sua mãe (Barbara Hershey). Pressionada por Thomas Leroy (Vincent Cassel), um exigente diretor artístico, ela passa a enxergar uma concorrência desleal vindo de suas colegas, em especial Lilly (Mila Kunis). Em meio a tudo isso, busca a perfeição nos ensaios para o maior desafio de sua carreira: interpretar a Rainha Cisne em uma adaptação de \"O Lago dos Cisnes\".', '13', '26', '10 anos', null, null);
-INSERT INTO `filmes` VALUES ('4', 'CLICK', '2006', 'Frank Coraci', 'Em Click, Michael Newman (Adam Sandler) é casado com Donna (Kate Beckinsale) e tem dois filhos. Ele tem dificuldades em ver sua família, visto que passa bastante tempo no escritório de arquitetura em que trabalha, no intuito de chamar a atenção de seu chefe (David Hasselhoff). Porém, após entrar em uma loja com intuito de comprar um novo controle remoto para sua casa, parece ter encontrado uma solução para seu problema. Isso porque, ao chegar no local, conhece o excêntrico funcionário Morty (Christopher Walken), e acaba comprando um controle remoto experimental, com a promessa de facilitar sua', '5', '16', '12 anos', null, null);
-INSERT INTO `filmes` VALUES ('6', 'O DIABO DE CADA DIA', '2020', 'Antonio Campos', 'Ambientada entre a Segunda Guerra Mundial e a Guerra do Vietnã, O Diabo de Cada Dia acompanha diversos personagens num canto esquecido de Ohio, os quais a vida acabam se conectando. Willard Russell (Bill Skarsgård) é um atormentado veterano, sobrevivente de uma carnificina, que não consegue salvar sua bela esposa de uma morte agonizante por conta de um câncer, mesmo com toda a oração e devoção de sua parte. Enquanto isso, Carl (Jason Clarke) e Sandy Henderson (Riley Keough), um casal de assassinos em série, percorrem as rodovias americanas em busca de modelos adequadas para fotografar e exterm', '26', '13', '18 anos', null, null);
-INSERT INTO `filmes` VALUES ('7', 'O DIABO VESTE PRADA', '2006', 'David Frankel', 'Andrea Sachs (Anne Hathaway) é uma jovem que conseguiu um emprego na Runaway Magazine, a mais importante revista de moda de Nova York. Ela passa a trabalhar como assistente de Miranda Priestly (Meryl Streep), principal executiva da revista. Apesar da chance que muitos sonhariam em conseguir, logo Andrea nota que trabalhar com Miranda não é tão simples assim.', '5', '13', 'Livre', null, null);
-INSERT INTO `filmes` VALUES ('8', 'O ÚLTIMO DUELO', '2021', 'Ridley Scott', 'O Último Duelo é uma história baseada no romance homônimo de Eric Jager, sobre o duelo entre Jean de Carrouges, um cavaleiro respeitado conhecido por sua bravura e habilidade no campo de batalha, e Jaques Le Gris, um escudeiro cuja inteligência e eloquência fazem dele um dos nobres mais admirados da corte. Quando Le Gris ataca violentamente a esposa de Carrouges, ela dá um passo à frente para acusar seu agressor, um ato de bravura e desafio que coloca sua vida em risco. O julgamento por combate seguiu sendo um duelo extenuante até a morte, colocando a vida de todos os três nas mãos do destino.', '13', '1', '16 anos', null, null);
-INSERT INTO `filmes` VALUES ('9', 'ASSASSINATO NO EXPRESSO ORIENTE', '2017', 'Kenneth Branagh', 'O detetive Hercule Poirot (Kenneth Branagh) embarca de última hora no trem Expresso do Oriente, graças à amizade que possui com Bouc (Tom Bateman), que coordena a viagem. Já a bordo, ele conhece os demais passageiros e resiste à insistente aproximação de Edward Ratchett (Johnny Depp), que deseja contratá-lo para ser seu segurança particular. Na noite seguinte, Ratchett é morto em seu vagão. Com a viagem momentaneamente interrompida devido a uma nevasca que fez com que o trem descarrilhasse, Bouc convence Poirot para que use suas habilidades dedutivas de forma a desvendar o crime cometido.', '21', '28', '12 anos', null, null);
-INSERT INTO `filmes` VALUES ('10', 'FRAGMENTADO', '2016', 'M. Night Shyamalan', 'M. Night Shyamalan ganhou fama por fazer uma espécie de cinema \"Kinder Ovo\": Aquele com surpresinha no final. A estrutura fez sucesso em O Sexto Sentido (1999), quando o diretor explodiu em Hollywood, voltou em Corpo Fechado (2000) e A Vila (2004) e, depois de uma série de fracassos que fugiram à “regra”, foi retomada em seu longa anterior, A Visita (2015), alçando-o novamente a uma posição respeitável na indústria. Tudo porque a reviravolta, quando bem explorada, é desafiadora, instigante, provocativa para o público. Até lá (até chegar à surpresa), no entanto, é preciso que haja condições con', '26', '25', '14 anos', null, null);
-INSERT INTO `filmes` VALUES ('11', 'AS VANTAGENS DE SER INVISÍVEL', '2012', 'Stephen Chbosky', 'Charlie (Logan Lerman) é um jovem que tem dificuldades para interagir em sua nova escola. Com os nervos à flor da pele, ele se sente deslocado no ambiente. Seu professor de literatura, no entanto, acredita nele e o vê como um gênio. Mas Charlie continua a pensar pouco de si... até o dia em que dois amigos, Patrick (Ezra Miller) e Sam (Emma Watson), passam a andar com ele.', '24', '13', '14 anos', null, null);
-INSERT INTO `filmes` VALUES ('12', 'ESCRITORES DA LIBERDADE', '2007', 'Richard LaGravenese', 'Em Escritores da Liberade, uma jovem e idealista professora chega a uma escola de um bairro pobre, que está corrompida pela agressividade e violência. Os alunos se mostram rebeldes e sem vontade de aprender, e há entre eles uma constante tensão racial. Assim, para fazer com que os alunos aprendam e também falem mais de suas complicadas vidas, a professora Gruwell (Hilary Swank) lança mão de métodos diferentes de ensino. Aos poucos, os alunos vão retomando a confiança em si mesmos, aceitando mais o conhecimento, e reconhecendo valores como a tolerânica e o respeito ao próximo.', '13', '29', '12 anos', null, null);
-INSERT INTO `filmes` VALUES ('13', 'MORTE NO NILO', '2022', 'Kenneth Branagh', 'Em Morte no Nilo, durante sua viagem de lua de mel pelo rio Nilo, o casal Linnet Ridgeway (Gal Gadot) e Simon Doyle (Armie Hammer), convidaram os entes mais queridos para embarcar no barco Karvak e celebrar a união do casal. Porém a rica herdeira é misteriosamente morta de noite e por quase todos os passageiros têm motivos para matá-la. Mas um dos convidados, por coincidência, é o mais famoso detetive do mundo, Hércules Poirot, que começa a investigar o caso. Enquanto as investigações têm início no próprio barco, novas mortes acontecem com o intuito de encobrir a verdade e o caso acaba sendo m', '21', '28', '14 anos', null, null);
-INSERT INTO `filmes` VALUES ('14', 'ALIEN, O OITAVO PASSAGEIRO', '1979', 'Ridley Scott', 'Uma nave espacial, ao retornar para Terra, recebe estranhos sira, recebe estranhos sinais vindos de um asteroide. Enquanto a equipe investiga o local, um dos tripulantes é atacado por um misterioso ser. O que parecia ser um ataque isolado se transforma em um terror constante, pois o tripulante atacado levou para dentro da nave o embrião de um alienígena, que não para de crescer e tem como meta matar toda a tripulação.', '25', '16', '14 anos', null, null);
-INSERT INTO `filmes` VALUES ('15', 'BONECO DO MAL 2', '2020', 'William Brent Bell', 'Jovem família se muda para uma mansão sem conhecer a terrível história por trás de suas paredes. Lá, o filho faz um novo amigo: um boneco em forma de humano que ele chama de Brahms.', '25', '27', '14 anos', null, null);
-INSERT INTO `filmes` VALUES ('16', 'A BRUXA', '2016', 'Robert Eggers', 'Em uma fazenda no século 17, uma histeria religiosa toma conta de uma família que acusa a filha mais velha pelo desaparecimento do seu irmão ainda bebê.', '25', '13', '16 anos', null, null);
-INSERT INTO `filmes` VALUES ('17', 'CARRIE', '1976', 'Brian De Palma', 'Carrie é uma jovem tímida, perseguida pelos colegas, professores e impedida pela mãe de levar uma vida comum. No dia de sua formatura, descobre que possui poderes telecinéticos quando os jovens mais populares da escola a humilham diante de todos.', '25', '27', '16 anos', null, null);
-INSERT INTO `filmes` VALUES ('18', 'A CASA DO TERROR', '2019', 'Bryan Woods, Scott Beck', 'No Halloween, um grupo de amigos encontra uma casa assombrada que promete alimentar-se dos seus medos mais sombrios. A noite torna-se mortal quando eles chegam à terrível conclusão de que alguns pesadelos são reais.', '25', '27', '14 anos', null, null);
-INSERT INTO `filmes` VALUES ('19', 'A MALDIÇÃO DE CHUCKY', '2013', 'Don Mancini', 'Depois do suicídio de sua mãe, Nica recebe a visita de sua autoritária irmã Barb, que pretende ajudar nos arranjos do funeral. Sua filha traz um boneco ruivo que chegou curiosamente pelos correios. Quando uma série de assassinatos aterrorizam a vizinhança, Nica começa a suspeitar que o brinquedo tenha alguma relação com estes fatos, mas não sabe que Chucky está de volta para resolver casos pessoais de mais de vinte anos atrás.', '25', '27', '14 anos', null, null);
-INSERT INTO `filmes` VALUES ('20', 'CORRA', '2017', 'Jordan Peele', 'Chris é um jovem fotógrafo negro que está prestes a conhecer os pais de Rose, sua namorada caucasiana. Com o tempo, ele percebe que a família dela esconde algo muito perturbador.', '25', '27', '16 anos', null, null);
-INSERT INTO `filmes` VALUES ('21', 'DOUTOR SONO', '2019', 'Mike Flanagan', 'Na infância, Danny Torrance sobreviveu a uma tentativa de homicídio por parte do pai, um escritor perturbado pelos espíritos malignos do Hotel Overlook. Já adulto, traumatizado e alcoólatra. Danny se estabelece em uma pequena cidade, onde consegue um emprego no hospital local. Sua paz, porém, está com os dias contados a partir de quando cria um vínculo telepático com Abra, uma menina com poderes tão fortes quanto aqueles que ele bloqueia dentro de si.', '25', '16', '18 anos', null, null);
-INSERT INTO `filmes` VALUES ('22', 'O GRITO', '2004', 'Takashi Shimizu', 'Depois que uma jovem mãe mata a família em sua própria casa, uma mãe solteira e um detetive tentam investigar e resolver o caso. Mais tarde, eles descobrem que a casa é amaldiçoada.', '25', '21', '16 anos', null, null);
-INSERT INTO `filmes` VALUES ('23', 'UM LUGAR SILENCIOSO', '2018', 'John Krasinski', 'Em uma fazenda nos Estados Unidos, uma família do Meio-Oeste é perseguida por uma entidade fantasmagórica assustadora. Para se protegerem, eles devem permanecer em silêncio absoluto, a qualquer custo, pois o perigo é ativado pela percepção do som.', '25', '18', '14 anos', null, null);
-INSERT INTO `filmes` VALUES ('24', 'OUIJA ORIGEM DO MAL', '2016', 'Mike Flanagan', 'Doris é uma menina solitária e sua mãe finge se comunicar com espíritos. Certo dia, a garota usa um tabuleiro de Ouija para contato com o falecido pai e uma série de seres malignos se apoderam de seu corpo.', '25', '27', '14 anos', null, null);
-INSERT INTO `filmes` VALUES ('25', 'VIAGEM PARA O INFERNO', '2019', 'Patrick Garcia', 'Um grupo de turistas norte-americanos passa férias na África do Sul e vê sua viagem se tornar um inferno quando chegam a uma cabana abandonada em uma área rural remota do país, um lugar que guarda um segredo mortal.', '25', '27', '16 anos', null, null);
-INSERT INTO `filmes` VALUES ('26', 'HOMEM FORMIGA', '2015', 'Peyton Reed', 'Dr. Hank Pym (Michael Douglas) é o inventor da fórmula/ traje que permite o encolhimento. Anos depois da descoberta, precisa impedir que seu ex-pupilo Darren Cross (Corey Stoll) consiga replicar o feito e vender a tecnologia para HYDRA. Dr. Pym escolhe o trambiqueiro Scott Lang (Paul Rudd) à usar o traje do Homem-Formiga. Lang, que acabou de sair da prisão e está com dificuldade de achar um trabalho honesto, aceita.', '1', '2', '12 anos', null, null);
-INSERT INTO `filmes` VALUES ('27', 'PANTERA NEGRA', '2018', 'Ryan Coogler', 'Em Pantera Negra, após a morte do rei TChaka (John Kani), o príncipe TChalla (Chadwick Boseman) retorna a Wakanda para a cerimônia de coroação. Nela são reunidas as cinco tribos que compõem o reino, sendo que uma delas, os Jabari, não apoia o atual governo. TChalla logo recebe o apoio de Okoye (Danai Gurira), a chefe da guarda de Wakanda, da irmã Shuri (Letitia Wright), que coordena a área tecnológica do reino, e também de Nakia (Lupita Nyong o), a grande paixão do atual Pantera Negra, que não quer se tornar rainha. Juntos, eles estão à procura de Ulysses Klaue (Andy Serkis), que roubou de Wak', '1', '2', '14 anos', null, null);
-INSERT INTO `filmes` VALUES ('28', 'CAPITÃO AMÉRICA GUERRA CIVIL', '2016', 'Anthony Russo', 'Em Capitão América: Guerra Civil, Steve Rogers (Chris Evans) é o atual líder dos Vingadores, super-grupo de heróis formado por Viúva Negra (Scarlett Johansson), Feiticeira Escarlate (Elizabeth Olsen), Visão (Paul Bettany), Falcão (Anthony Mackie) e Máquina de Combate (Don Cheadle). O ataque de Ultron fez com que os políticos buscassem algum meio de controlar os super-heróis, já que seus atos afetam toda a humanidade. Tal decisão coloca o Capitão América em rota de colisão com Tony Stark (Robert Downey Jr.), o Homem de Ferro.', '1', '2', '12 anos', null, null);
-INSERT INTO `filmes` VALUES ('29', 'DOUTOR ESTRANHO NO MULTIVERSO DA LOUCURA', '2022', ' Sam Raimi', 'Em Doutor Estranho no Multiverso da Loucura, após derrotar Dormammu e enfrentar Thanos nos eventos de Vingadores: Ultimato, o Mago Supremo, Stephen Strange (Benedict Cumberbatch), e seu parceiro Wong (Benedict Wong), continuam suas pesquisas sobre a Joia do Tempo. Mas um velho amigo que virou inimigo coloca um ponto final nos seus planos e faz com que Strange desencadeie um mal indescritível, o obrigando a enfrentar uma nova e poderosa ameaça. O longa se conecta com a série do Disney+ WandaVision e tem relação também com Loki. O longa pertence a fase 4 do MCU onde a realidade do universo pode ', '1', '2', '14 anos', null, null);
-INSERT INTO `filmes` VALUES ('30', 'VINGADORES ULTIMATO', '2019', 'Anthony Russo, Joe Russo', 'Em Vingadores: Ultimato, após Thanos eliminar metade das criaturas vivas em Vingadores: Guerra Infinita, os heróis precisam lidar com a dor da perda de amigos e seus entes queridos. Com Tony Stark (Robert Downey Jr.) vagando perdido no espaço sem água nem comida, o Capitão América/Steve Rogers (Chris Evans) e a Viúva Negra/Natasha Romanov (Scarlett Johansson) precisam liderar a resistência contra o titã louco.', '1', '17', '12 anos', null, null);
-INSERT INTO `filmes` VALUES ('31', 'ETERNOS', '2021', 'Chloé Zhao', 'Eternos são seres super dotados com características como imortalidade e manipulação de energia cósmica, e eles são frutos de experiências fracassadas de seu próprio criador, o Celestial Arishem, desde a criação da Terra há milhões de anos. Destinados a salvar o mundo e a raça humana dos Deviantes, seres também criados pelo Celestial, os Eternos então derrotam tais seres e seguem caminhos diferentes, esperando que seu criador volte com boas novas. Mas após séculos e milênios aguardando ele, o grupo de heróis imortais agora precisa se preparar para uma nova ameaça, e precisam lutar contra os Dev', '1', '16', '12 anos', null, null);
-INSERT INTO `filmes` VALUES ('32', 'GUARDIÕES DA GALÁXIA 2', '2017', 'James Gunn', 'Agora já conhecidos como os Guardiões da Galáxia, os guerreiros viajam ao longo do cosmos e lutam para manter sua nova família unida. Enquanto isso tentam desvendar os mistérios da verdadeira paternidade de Peter Quill (Chris Pratt).', '18', '1', '12 anos', null, null);
-INSERT INTO `filmes` VALUES ('33', 'VINGADORES GUERRA INFINITA', '2018', 'Anthony Russo, Joe Russo', 'Em Vingadores: Guerra Infinita, Thanos (Josh Brolin) enfim chega à Terra, disposto a reunir as Joias do Infinito. Para enfrentá-lo, os Vingadores precisam unir forças com os Guardiões da Galáxia, ao mesmo tempo em que lidam com desavenças entre alguns de seus integrantes.', '1', '18', '12 anos', null, null);
-INSERT INTO `filmes` VALUES ('34', 'CAPITÃ MARVEL', '2019', 'Anna Boden, Ryan Fleck', 'Em Capitã Marvel, Carol Danvers (Brie Larson) é uma ex-agente da Força Aérea norte-americana, que, sem se lembrar de sua vida na Terra, é recrutada pelos Kree para fazer parte de seu exército de elite. Inimiga declarada dos Skrull, ela acaba voltando ao seu planeta de origem para impedir uma invasão dos metaformos, e assim vai acabar descobrindo a verdade sobre si, com a ajuda do agente Nick Fury (Samuel L. Jackson) e da gata Goose.', '1', '18', '12 anos', null, null);
-INSERT INTO `filmes` VALUES ('35', 'THOR RAGNAROK', '2017', 'Taika Waititi', 'Em Thor: Ragnarok, Thor (Chris Hemsworth) está preso do outro lado do universo. Ele precisa correr contra o tempo para voltar a Asgard e impedir o Ragnarok, a destruição de seu mundo, que está nas mãos da poderosa e implacável vilã Hela (Cate Blanchett).', '1', '18', '12 anos', null, null);
-INSERT INTO `filmes` VALUES ('36', 'SHANG CHI E A LENDA DOS 10 ANÉIS', '2021', 'Destin Cretton', 'Em Shang-Chi e a Lenda dos Dez Anéis, Shang-Chi (Simu Liu) é um jovem chinês que abandonou seu país e seu pai, que lhe treinou desde criança nas artes marciais para ser um assassino ao seu dispor. Seu pai porta Dez Anéis que lhe dão poderes e longevidade, vivendo por séculos. Porém ao conhecer a mãe de Shang-Chi, ele se apaixona e tenta mudar sua vida, mas ela morre anos depois de dar a luz para a irmã mais nova de Shang-Chi, voltando causar tumulto na China. Após completar 18 anos, Shang-chi foge de seu pai em uma missão que vingaria a morte de sua mãe, mas o passado segue Shang-Chi e agora s', '1', '18', '12 anos', null, null);
-INSERT INTO `filmes` VALUES ('37', 'HOMEM ARANHA DE VOLTA AO LAR', '2021', 'Jon Watts', 'Não é possível analisar Homem-Aranha: De Volta ao Lar sem considerar a conjuntura existente por trás do filme. Desde que o Universo Cinematográfico Marvel começou a ser instituído, lá em 2008, cada peça foi planejada de forma que, paulatinamente, formasse um grande quebra-cabeças envolvendo os super-heróis da editora, no melhor estilo já existente nos quadrinhos. Dentre eles, não estava o Homem-Aranha - seus direitos cinematográficos tinham sido repassados à Sony, que bancava aventuras independentes. Assim foi durante pouco mais de duas décadas, quando o estúdio entrou em acordo com a Marvel p', '1', '2', '12 anos', null, null);
+INSERT INTO `filmes` VALUES ('1', 'BOHEMIAN RHAPSODY', '2018', 'Bryan Singer, Dexter Fletcher', 'Freddie Mercury (Rami Malek) e seus companheiros Brian May (Gwilyn Lee), Roger Taylor (Ben Hardy) e John Deacon (Joseph Mazzello) mudam o mundo da música para sempre ao formar a banda Queen, durante a década de 1970. Porém, quando o estilo de vida extravagante de Mercury começa a sair do controle, a banda tem que enfrentar o desafio de conciliar a fama e o sucesso com suas vidas pessoais cada vez mais complicadas', '22', '13', '14 anos', '/imagens/Filmes/drama/bohemian.webp5', '2h14min');
+INSERT INTO `filmes` VALUES ('2', 'A MENINA QUE ROUBAVA LIVROS', '2013', 'Brian Percival', 'Durante a Segunda Guerra Mundial, uma jovem garota chamada Liesel Meminger (Sophie Nélisse) sobrevive fora de Munique através dos livros que ela rouba. Ajudada por seu pai adotivo (Geoffrey Rush), ela aprende a ler e partilhar livros com seus amigos, incluindo um homem judeu (Ben Schnetzer) que vive na clandestinidade em sua casa. Enquanto não está lendo ou estudando, ela realiza algumas tarefas para a mãe (Emily Watson) e brinca com a amigo Rudy (Nico Liersch).', '20', '13', '10 anos', null, '2h11min');
+INSERT INTO `filmes` VALUES ('3', 'CISNE NEGRO', '2010', 'Darren Aronofsky', 'Beth MacIntyre (Winona Ryder), a primeira bailarina de uma companhia, está prestes a se aposentar. O posto fica com Nina (Natalie Portman), mas ela possui sérios problemas pessoais, especialmente com sua mãe (Barbara Hershey). Pressionada por Thomas Leroy (Vincent Cassel), um exigente diretor artístico, ela passa a enxergar uma concorrência desleal vindo de suas colegas, em especial Lilly (Mila Kunis). Em meio a tudo isso, busca a perfeição nos ensaios para o maior desafio de sua carreira: interpretar a Rainha Cisne em uma adaptação de \"O Lago dos Cisnes\".', '13', '26', '10 anos', null, '1h42min');
+INSERT INTO `filmes` VALUES ('4', 'CLICK', '2006', 'Frank Coraci', 'Em Click, Michael Newman (Adam Sandler) é casado com Donna (Kate Beckinsale) e tem dois filhos. Ele tem dificuldades em ver sua família, visto que passa bastante tempo no escritório de arquitetura em que trabalha, no intuito de chamar a atenção de seu chefe (David Hasselhoff). Porém, após entrar em uma loja com intuito de comprar um novo controle remoto para sua casa, parece ter encontrado uma solução para seu problema. Isso porque, ao chegar no local, conhece o excêntrico funcionário Morty (Christopher Walken), e acaba comprando um controle remoto experimental, com a promessa de facilitar sua', '5', '16', '12 anos', null, '1h47min');
+INSERT INTO `filmes` VALUES ('6', 'O DIABO DE CADA DIA', '2020', 'Antonio Campos', 'Ambientada entre a Segunda Guerra Mundial e a Guerra do Vietnã, O Diabo de Cada Dia acompanha diversos personagens num canto esquecido de Ohio, os quais a vida acabam se conectando. Willard Russell (Bill Skarsgård) é um atormentado veterano, sobrevivente de uma carnificina, que não consegue salvar sua bela esposa de uma morte agonizante por conta de um câncer, mesmo com toda a oração e devoção de sua parte. Enquanto isso, Carl (Jason Clarke) e Sandy Henderson (Riley Keough), um casal de assassinos em série, percorrem as rodovias americanas em busca de modelos adequadas para fotografar e exterm', '26', '13', '18 anos', null, '2h18min');
+INSERT INTO `filmes` VALUES ('7', 'O DIABO VESTE PRADA', '2006', 'David Frankel', 'Andrea Sachs (Anne Hathaway) é uma jovem que conseguiu um emprego na Runaway Magazine, a mais importante revista de moda de Nova York. Ela passa a trabalhar como assistente de Miranda Priestly (Meryl Streep), principal executiva da revista. Apesar da chance que muitos sonhariam em conseguir, logo Andrea nota que trabalhar com Miranda não é tão simples assim.', '5', '13', 'Livre', null, '1h48min');
+INSERT INTO `filmes` VALUES ('8', 'O ÚLTIMO DUELO', '2021', 'Ridley Scott', 'O Último Duelo é uma história baseada no romance homônimo de Eric Jager, sobre o duelo entre Jean de Carrouges, um cavaleiro respeitado conhecido por sua bravura e habilidade no campo de batalha, e Jaques Le Gris, um escudeiro cuja inteligência e eloquência fazem dele um dos nobres mais admirados da corte. Quando Le Gris ataca violentamente a esposa de Carrouges, ela dá um passo à frente para acusar seu agressor, um ato de bravura e desafio que coloca sua vida em risco. O julgamento por combate seguiu sendo um duelo extenuante até a morte, colocando a vida de todos os três nas mãos do destino.', '13', '1', '16 anos', null, '2h32min');
+INSERT INTO `filmes` VALUES ('9', 'ASSASSINATO NO EXPRESSO ORIENTE', '2017', 'Kenneth Branagh', 'O detetive Hercule Poirot (Kenneth Branagh) embarca de última hora no trem Expresso do Oriente, graças à amizade que possui com Bouc (Tom Bateman), que coordena a viagem. Já a bordo, ele conhece os demais passageiros e resiste à insistente aproximação de Edward Ratchett (Johnny Depp), que deseja contratá-lo para ser seu segurança particular. Na noite seguinte, Ratchett é morto em seu vagão. Com a viagem momentaneamente interrompida devido a uma nevasca que fez com que o trem descarrilhasse, Bouc convence Poirot para que use suas habilidades dedutivas de forma a desvendar o crime cometido.', '21', '28', '12 anos', null, '1h54min');
+INSERT INTO `filmes` VALUES ('10', 'FRAGMENTADO', '2016', 'M. Night Shyamalan', 'M. Night Shyamalan ganhou fama por fazer uma espécie de cinema \"Kinder Ovo\": Aquele com surpresinha no final. A estrutura fez sucesso em O Sexto Sentido (1999), quando o diretor explodiu em Hollywood, voltou em Corpo Fechado (2000) e A Vila (2004) e, depois de uma série de fracassos que fugiram à “regra”, foi retomada em seu longa anterior, A Visita (2015), alçando-o novamente a uma posição respeitável na indústria. Tudo porque a reviravolta, quando bem explorada, é desafiadora, instigante, provocativa para o público. Até lá (até chegar à surpresa), no entanto, é preciso que haja condições con', '26', '25', '14 anos', null, '1h57min');
+INSERT INTO `filmes` VALUES ('11', 'AS VANTAGENS DE SER INVISÍVEL', '2012', 'Stephen Chbosky', 'Charlie (Logan Lerman) é um jovem que tem dificuldades para interagir em sua nova escola. Com os nervos à flor da pele, ele se sente deslocado no ambiente. Seu professor de literatura, no entanto, acredita nele e o vê como um gênio. Mas Charlie continua a pensar pouco de si... até o dia em que dois amigos, Patrick (Ezra Miller) e Sam (Emma Watson), passam a andar com ele.', '24', '13', '14 anos', null, '1h45min');
+INSERT INTO `filmes` VALUES ('12', 'ESCRITORES DA LIBERDADE', '2007', 'Richard LaGravenese', 'Em Escritores da Liberade, uma jovem e idealista professora chega a uma escola de um bairro pobre, que está corrompida pela agressividade e violência. Os alunos se mostram rebeldes e sem vontade de aprender, e há entre eles uma constante tensão racial. Assim, para fazer com que os alunos aprendam e também falem mais de suas complicadas vidas, a professora Gruwell (Hilary Swank) lança mão de métodos diferentes de ensino. Aos poucos, os alunos vão retomando a confiança em si mesmos, aceitando mais o conhecimento, e reconhecendo valores como a tolerânica e o respeito ao próximo.', '13', '29', '12 anos', null, '2h3min');
+INSERT INTO `filmes` VALUES ('13', 'MORTE NO NILO', '2022', 'Kenneth Branagh', 'Em Morte no Nilo, durante sua viagem de lua de mel pelo rio Nilo, o casal Linnet Ridgeway (Gal Gadot) e Simon Doyle (Armie Hammer), convidaram os entes mais queridos para embarcar no barco Karvak e celebrar a união do casal. Porém a rica herdeira é misteriosamente morta de noite e por quase todos os passageiros têm motivos para matá-la. Mas um dos convidados, por coincidência, é o mais famoso detetive do mundo, Hércules Poirot, que começa a investigar o caso. Enquanto as investigações têm início no próprio barco, novas mortes acontecem com o intuito de encobrir a verdade e o caso acaba sendo m', '21', '28', '14 anos', null, '2h7min');
+INSERT INTO `filmes` VALUES ('14', 'ALIEN, O OITAVO PASSAGEIRO', '1979', 'Ridley Scott', 'Uma nave espacial, ao retornar para Terra, recebe estranhos sira, recebe estranhos sinais vindos de um asteroide. Enquanto a equipe investiga o local, um dos tripulantes é atacado por um misterioso ser. O que parecia ser um ataque isolado se transforma em um terror constante, pois o tripulante atacado levou para dentro da nave o embrião de um alienígena, que não para de crescer e tem como meta matar toda a tripulação.', '25', '16', '14 anos', null, '1h57min');
+INSERT INTO `filmes` VALUES ('15', 'BONECO DO MAL 2', '2020', 'William Brent Bell', 'Jovem família se muda para uma mansão sem conhecer a terrível história por trás de suas paredes. Lá, o filho faz um novo amigo: um boneco em forma de humano que ele chama de Brahms.', '25', '27', '14 anos', null, '1h27min');
+INSERT INTO `filmes` VALUES ('16', 'A BRUXA', '2016', 'Robert Eggers', 'Em uma fazenda no século 17, uma histeria religiosa toma conta de uma família que acusa a filha mais velha pelo desaparecimento do seu irmão ainda bebê.', '25', '13', '16 anos', null, '1h32min');
+INSERT INTO `filmes` VALUES ('17', 'CARRIE', '1976', 'Brian De Palma', 'Carrie é uma jovem tímida, perseguida pelos colegas, professores e impedida pela mãe de levar uma vida comum. No dia de sua formatura, descobre que possui poderes telecinéticos quando os jovens mais populares da escola a humilham diante de todos.', '25', '27', '16 anos', null, '1h38min');
+INSERT INTO `filmes` VALUES ('18', 'A CASA DO TERROR', '2019', 'Bryan Woods, Scott Beck', 'No Halloween, um grupo de amigos encontra uma casa assombrada que promete alimentar-se dos seus medos mais sombrios. A noite torna-se mortal quando eles chegam à terrível conclusão de que alguns pesadelos são reais.', '25', '27', '14 anos', null, '1h32min');
+INSERT INTO `filmes` VALUES ('19', 'A MALDIÇÃO DE CHUCKY', '2013', 'Don Mancini', 'Depois do suicídio de sua mãe, Nica recebe a visita de sua autoritária irmã Barb, que pretende ajudar nos arranjos do funeral. Sua filha traz um boneco ruivo que chegou curiosamente pelos correios. Quando uma série de assassinatos aterrorizam a vizinhança, Nica começa a suspeitar que o brinquedo tenha alguma relação com estes fatos, mas não sabe que Chucky está de volta para resolver casos pessoais de mais de vinte anos atrás.', '25', '27', '14 anos', null, '1h37min');
+INSERT INTO `filmes` VALUES ('20', 'CORRA', '2017', 'Jordan Peele', 'Chris é um jovem fotógrafo negro que está prestes a conhecer os pais de Rose, sua namorada caucasiana. Com o tempo, ele percebe que a família dela esconde algo muito perturbador.', '25', '27', '16 anos', null, '1h44min');
+INSERT INTO `filmes` VALUES ('21', 'DOUTOR SONO', '2019', 'Mike Flanagan', 'Na infância, Danny Torrance sobreviveu a uma tentativa de homicídio por parte do pai, um escritor perturbado pelos espíritos malignos do Hotel Overlook. Já adulto, traumatizado e alcoólatra. Danny se estabelece em uma pequena cidade, onde consegue um emprego no hospital local. Sua paz, porém, está com os dias contados a partir de quando cria um vínculo telepático com Abra, uma menina com poderes tão fortes quanto aqueles que ele bloqueia dentro de si.', '25', '16', '18 anos', null, '2h31min');
+INSERT INTO `filmes` VALUES ('22', 'O GRITO', '2004', 'Takashi Shimizu', 'Depois que uma jovem mãe mata a família em sua própria casa, uma mãe solteira e um detetive tentam investigar e resolver o caso. Mais tarde, eles descobrem que a casa é amaldiçoada.', '25', '21', '16 anos', null, '1h32min');
+INSERT INTO `filmes` VALUES ('23', 'UM LUGAR SILENCIOSO', '2018', 'John Krasinski', 'Em uma fazenda nos Estados Unidos, uma família do Meio-Oeste é perseguida por uma entidade fantasmagórica assustadora. Para se protegerem, eles devem permanecer em silêncio absoluto, a qualquer custo, pois o perigo é ativado pela percepção do som.', '25', '18', '14 anos', null, '1h30min');
+INSERT INTO `filmes` VALUES ('24', 'OUIJA ORIGEM DO MAL', '2016', 'Mike Flanagan', 'Doris é uma menina solitária e sua mãe finge se comunicar com espíritos. Certo dia, a garota usa um tabuleiro de Ouija para contato com o falecido pai e uma série de seres malignos se apoderam de seu corpo.', '25', '27', '14 anos', null, '1h39min');
+INSERT INTO `filmes` VALUES ('25', 'VIAGEM PARA O INFERNO', '2019', 'Patrick Garcia', 'Um grupo de turistas norte-americanos passa férias na África do Sul e vê sua viagem se tornar um inferno quando chegam a uma cabana abandonada em uma área rural remota do país, um lugar que guarda um segredo mortal.', '25', '27', '16 anos', null, '95min');
+INSERT INTO `filmes` VALUES ('26', 'HOMEM FORMIGA', '2015', 'Peyton Reed', 'Dr. Hank Pym (Michael Douglas) é o inventor da fórmula/ traje que permite o encolhimento. Anos depois da descoberta, precisa impedir que seu ex-pupilo Darren Cross (Corey Stoll) consiga replicar o feito e vender a tecnologia para HYDRA. Dr. Pym escolhe o trambiqueiro Scott Lang (Paul Rudd) à usar o traje do Homem-Formiga. Lang, que acabou de sair da prisão e está com dificuldade de achar um trabalho honesto, aceita.', '1', '2', '12 anos', null, '1h58min');
+INSERT INTO `filmes` VALUES ('27', 'PANTERA NEGRA', '2018', 'Ryan Coogler', 'Em Pantera Negra, após a morte do rei TChaka (John Kani), o príncipe TChalla (Chadwick Boseman) retorna a Wakanda para a cerimônia de coroação. Nela são reunidas as cinco tribos que compõem o reino, sendo que uma delas, os Jabari, não apoia o atual governo. TChalla logo recebe o apoio de Okoye (Danai Gurira), a chefe da guarda de Wakanda, da irmã Shuri (Letitia Wright), que coordena a área tecnológica do reino, e também de Nakia (Lupita Nyong o), a grande paixão do atual Pantera Negra, que não quer se tornar rainha. Juntos, eles estão à procura de Ulysses Klaue (Andy Serkis), que roubou de Wak', '1', '2', '14 anos', null, '2h15min');
+INSERT INTO `filmes` VALUES ('28', 'CAPITÃO AMÉRICA GUERRA CIVIL', '2016', 'Anthony Russo', 'Em Capitão América: Guerra Civil, Steve Rogers (Chris Evans) é o atual líder dos Vingadores, super-grupo de heróis formado por Viúva Negra (Scarlett Johansson), Feiticeira Escarlate (Elizabeth Olsen), Visão (Paul Bettany), Falcão (Anthony Mackie) e Máquina de Combate (Don Cheadle). O ataque de Ultron fez com que os políticos buscassem algum meio de controlar os super-heróis, já que seus atos afetam toda a humanidade. Tal decisão coloca o Capitão América em rota de colisão com Tony Stark (Robert Downey Jr.), o Homem de Ferro.', '1', '2', '12 anos', null, '2h28min');
+INSERT INTO `filmes` VALUES ('29', 'DOUTOR ESTRANHO NO MULTIVERSO DA LOUCURA', '2022', ' Sam Raimi', 'Em Doutor Estranho no Multiverso da Loucura, após derrotar Dormammu e enfrentar Thanos nos eventos de Vingadores: Ultimato, o Mago Supremo, Stephen Strange (Benedict Cumberbatch), e seu parceiro Wong (Benedict Wong), continuam suas pesquisas sobre a Joia do Tempo. Mas um velho amigo que virou inimigo coloca um ponto final nos seus planos e faz com que Strange desencadeie um mal indescritível, o obrigando a enfrentar uma nova e poderosa ameaça. O longa se conecta com a série do Disney+ WandaVision e tem relação também com Loki. O longa pertence a fase 4 do MCU onde a realidade do universo pode ', '1', '2', '14 anos', null, '2h6min');
+INSERT INTO `filmes` VALUES ('30', 'VINGADORES ULTIMATO', '2019', 'Anthony Russo, Joe Russo', 'Em Vingadores: Ultimato, após Thanos eliminar metade das criaturas vivas em Vingadores: Guerra Infinita, os heróis precisam lidar com a dor da perda de amigos e seus entes queridos. Com Tony Stark (Robert Downey Jr.) vagando perdido no espaço sem água nem comida, o Capitão América/Steve Rogers (Chris Evans) e a Viúva Negra/Natasha Romanov (Scarlett Johansson) precisam liderar a resistência contra o titã louco.', '1', '17', '12 anos', null, '3h2min');
+INSERT INTO `filmes` VALUES ('31', 'ETERNOS', '2021', 'Chloé Zhao', 'Eternos são seres super dotados com características como imortalidade e manipulação de energia cósmica, e eles são frutos de experiências fracassadas de seu próprio criador, o Celestial Arishem, desde a criação da Terra há milhões de anos. Destinados a salvar o mundo e a raça humana dos Deviantes, seres também criados pelo Celestial, os Eternos então derrotam tais seres e seguem caminhos diferentes, esperando que seu criador volte com boas novas. Mas após séculos e milênios aguardando ele, o grupo de heróis imortais agora precisa se preparar para uma nova ameaça, e precisam lutar contra os Dev', '1', '16', '12 anos', null, '2h37min');
+INSERT INTO `filmes` VALUES ('32', 'GUARDIÕES DA GALÁXIA 2', '2017', 'James Gunn', 'Agora já conhecidos como os Guardiões da Galáxia, os guerreiros viajam ao longo do cosmos e lutam para manter sua nova família unida. Enquanto isso tentam desvendar os mistérios da verdadeira paternidade de Peter Quill (Chris Pratt).', '18', '1', '12 anos', null, '2h17min');
+INSERT INTO `filmes` VALUES ('33', 'VINGADORES GUERRA INFINITA', '2018', 'Anthony Russo, Joe Russo', 'Em Vingadores: Guerra Infinita, Thanos (Josh Brolin) enfim chega à Terra, disposto a reunir as Joias do Infinito. Para enfrentá-lo, os Vingadores precisam unir forças com os Guardiões da Galáxia, ao mesmo tempo em que lidam com desavenças entre alguns de seus integrantes.', '1', '18', '12 anos', null, '2h29min');
+INSERT INTO `filmes` VALUES ('34', 'CAPITÃ MARVEL', '2019', 'Anna Boden, Ryan Fleck', 'Em Capitã Marvel, Carol Danvers (Brie Larson) é uma ex-agente da Força Aérea norte-americana, que, sem se lembrar de sua vida na Terra, é recrutada pelos Kree para fazer parte de seu exército de elite. Inimiga declarada dos Skrull, ela acaba voltando ao seu planeta de origem para impedir uma invasão dos metaformos, e assim vai acabar descobrindo a verdade sobre si, com a ajuda do agente Nick Fury (Samuel L. Jackson) e da gata Goose.', '1', '18', '12 anos', null, '2h4min');
+INSERT INTO `filmes` VALUES ('35', 'THOR RAGNAROK', '2017', 'Taika Waititi', 'Em Thor: Ragnarok, Thor (Chris Hemsworth) está preso do outro lado do universo. Ele precisa correr contra o tempo para voltar a Asgard e impedir o Ragnarok, a destruição de seu mundo, que está nas mãos da poderosa e implacável vilã Hela (Cate Blanchett).', '1', '18', '12 anos', null, '2h10min');
+INSERT INTO `filmes` VALUES ('36', 'SHANG CHI E A LENDA DOS 10 ANÉIS', '2021', 'Destin Cretton', 'Em Shang-Chi e a Lenda dos Dez Anéis, Shang-Chi (Simu Liu) é um jovem chinês que abandonou seu país e seu pai, que lhe treinou desde criança nas artes marciais para ser um assassino ao seu dispor. Seu pai porta Dez Anéis que lhe dão poderes e longevidade, vivendo por séculos. Porém ao conhecer a mãe de Shang-Chi, ele se apaixona e tenta mudar sua vida, mas ela morre anos depois de dar a luz para a irmã mais nova de Shang-Chi, voltando causar tumulto na China. Após completar 18 anos, Shang-chi foge de seu pai em uma missão que vingaria a morte de sua mãe, mas o passado segue Shang-Chi e agora s', '1', '18', '12 anos', null, '2h12min');
+INSERT INTO `filmes` VALUES ('37', 'HOMEM ARANHA DE VOLTA AO LAR', '2021', 'Jon Watts', 'Não é possível analisar Homem-Aranha: De Volta ao Lar sem considerar a conjuntura existente por trás do filme. Desde que o Universo Cinematográfico Marvel começou a ser instituído, lá em 2008, cada peça foi planejada de forma que, paulatinamente, formasse um grande quebra-cabeças envolvendo os super-heróis da editora, no melhor estilo já existente nos quadrinhos. Dentre eles, não estava o Homem-Aranha - seus direitos cinematográficos tinham sido repassados à Sony, que bancava aventuras independentes. Assim foi durante pouco mais de duas décadas, quando o estúdio entrou em acordo com a Marvel p', '1', '2', '12 anos', null, '2h37min');
 
 -- ----------------------------
 -- Table structure for genero
@@ -624,7 +965,7 @@ CREATE TABLE `genero` (
   `CODGENERO` int(11) NOT NULL AUTO_INCREMENT,
   `DESCIRCAO` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`CODGENERO`)
-) ENGINE=InnoDB AUTO_INCREMENT=30 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8mb4;
 
 -- ----------------------------
 -- Records of genero
@@ -658,6 +999,7 @@ INSERT INTO `genero` VALUES ('26', 'Thriller');
 INSERT INTO `genero` VALUES ('27', 'Suspense');
 INSERT INTO `genero` VALUES ('28', 'Crime');
 INSERT INTO `genero` VALUES ('29', 'Adolecente');
+INSERT INTO `genero` VALUES ('30', 'Historia');
 
 -- ----------------------------
 -- Table structure for series
@@ -679,23 +1021,58 @@ CREATE TABLE `series` (
   KEY `SUBGENERO` (`SUBGENERO`),
   CONSTRAINT `series_ibfk_1` FOREIGN KEY (`CODGENERO`) REFERENCES `genero` (`CODGENERO`),
   CONSTRAINT `series_ibfk_2` FOREIGN KEY (`SUBGENERO`) REFERENCES `genero` (`CODGENERO`)
-) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=48 DEFAULT CHARSET=utf8mb4;
 
 -- ----------------------------
 -- Records of series
 -- ----------------------------
-INSERT INTO `series` VALUES ('1', 'ARCANE', '2021', 'Alex Yee, Christian Linke', 'Em meio ao conflito entre as cidades-gêmeas de Piltover e Zaun, duas irmãs lutam em lados opostos de uma guerra entre tecnologias mágicas e convicções incompatíveis.', '1', '18', '1', 'Livre', null);
-INSERT INTO `series` VALUES ('2', 'Lemony Snicket: Desventuras em Série', '2017', 'Daniel Handler', 'Os órfãos Baudelaire enfrentam dificuldades, obstáculos e até adultos em sua corrida para descobrir os segredos da família.', '21', '13', '3', '12 anos', null);
-INSERT INTO `series` VALUES ('3', 'GAME OF THRONES', '2011', ' David Benioff, George R. R. Martin, D. B. Weiss, ', 'Sucesso entre os livros mais vendidos, a série de obras \"A Song of Ice and Fire\", de George R.R. Martin, é levada à tela quando HBO decide navegar a fundo pelo gênero e recriar a fantasia medieval épica. Este é o retrato de duas famílias poderosas - reis e rainhas, cavaleiros e renegados, homens honestos e mentirosos - disputando um jogo mortal pelo controle dos Sete Reinos de Westeros para assumir o Trono de Ferro. A série foi filmada em Malta e no norte da Irlanda, tendo participação do escritor dos livros.', '13', '1', '8', '18 anos', null);
-INSERT INTO `series` VALUES ('4', 'His Dark Materials', '2019', 'Philip Pullman, Jack Thorne, Namsi Khan, Sarah Qui', 'Durante sua busca por um amigo sequestrado, uma valente garota chamada Lyra descobre uma trama sinistra envolvendo crianças desaparecidas e um fenômeno misterioso chamado Dust.', '21', '1', '3', '14 anos', null);
-INSERT INTO `series` VALUES ('5', 'A CASA DO DRAGÃO', '2022', 'Miguel Sapochnik', 'Os apoiadores de Aegon Targaryen entram em conflito com os adeptos de sua meia-irmã, Rhaenyra, pelo trono de Viserys I, seu falecido pai, iniciando uma guerra civil cerca de 200 anos antes dos eventos retratados em \"Game of Thrones\".', '13', '1', '1', '16 anos', null);
-INSERT INTO `series` VALUES ('6', 'O Senhor dos Anéis: Os Anéis de Poder', '2022', 'Patrick McKay, John D. Payne, Gennifer Hutchison, ', 'Em uma época de paz, um grupo de guerreiros enfrenta o ressurgimento do mal na Terra-Média. Das profundezas escuras das Montanhas de Névoa, das majestosas florestas de Lindon, até os confins do mapa, o legado desses heróis é maior do que suas vidas.', '13', '1', '1', '16 anos', null);
-INSERT INTO `series` VALUES ('7', 'A RODA DO TEMPO', '2021', 'Robert Jordan; Brandon Sanderson ', 'Moiraine, membro de uma organização mágica, leva cinco jovens em uma jornada cheia de desafios, acreditando que um deles pode ser o Dragão Renascido, um indivíduo poderoso que, segundo a profecia, irá salvar ou destruir o mundo.', '1', '13', '1', '16 anos', null);
-INSERT INTO `series` VALUES ('8', 'THE SANDMAN', '2022', ' Neil Gaiman, Allan Heinberg, David S. Goyer', 'Após anos aprisionado, Morpheus, o Rei dos Sonhos, embarca em uma jornada entre mundos para recuperar o que lhe foi roubado e restaurar seu poder.', '13', '1', '1', '16 anos', null);
-INSERT INTO `series` VALUES ('9', 'SOMBRA E OSSOS', '2021', 'Leigh Bardugo, Eric Heisserer, Vanya Asher, Christ', 'Forças sinistras conspiram contra uma jovem depois dela revelar um poder capaz de unir seu mundo.', '16', '21', '1', '16 anos', null);
-INSERT INTO `series` VALUES ('10', 'STRANGER THINGS', '2016', 'Matt Duffer, Ross Duffer, Jessie Nickson-Lopez, Ka', 'Um grupo de amigos se envolve em uma série de eventos sobrenaturais na pacata cidade de Hawkins. Eles enfrentam criaturas monstruosas, agências secretas do governo e se aventuram em dimensões paralelas.', '25', '27', '4', '16 anos', null);
-INSERT INTO `series` VALUES ('11', 'The Witcher', '2019', 'Konrad Tomaszkiewicz', 'O mutante Geralt de Rívia é um caçador de monstros que luta para encontrar seu lugar em um mundo onde as pessoas, muitas vezes, são mais perversas do que as criaturas selvagens.', '2', '16', '2', '18 anos', null);
-INSERT INTO `series` VALUES ('12', 'THE UMBRELLA ACADEMY', '2019', 'Steve Blackman, Jeremy Slater', 'Irmãos com poderes extraordinários se reúnem depois de passar muito tempo afastados e descobrem surpreendentes segredos de família. A família enfrenta viagens no tempo, assassinos e o fim do mundo.', '1', '2', '3', '18 anos', null);
+INSERT INTO `series` VALUES ('1', 'ARCANE', '2021', 'Alex Yee, Christian Linke', 'Em meio ao conflito entre as cidades-gêmeas de Piltover e Zaun, duas irmãs lutam em lados opostos de uma guerra entre tecnologias mágicas e convicções incompatíveis.', '1', '18', '1', 'Livre', '43min');
+INSERT INTO `series` VALUES ('2', 'Lemony Snicket: Desventuras em Série', '2017', 'Daniel Handler', 'Os órfãos Baudelaire enfrentam dificuldades, obstáculos e até adultos em sua corrida para descobrir os segredos da família.', '21', '13', '3', '12 anos', '53min');
+INSERT INTO `series` VALUES ('3', 'GAME OF THRONES', '2011', ' David Benioff, George R. R. Martin, D. B. Weiss, ', 'Sucesso entre os livros mais vendidos, a série de obras \"A Song of Ice and Fire\", de George R.R. Martin, é levada à tela quando HBO decide navegar a fundo pelo gênero e recriar a fantasia medieval épica. Este é o retrato de duas famílias poderosas - reis e rainhas, cavaleiros e renegados, homens honestos e mentirosos - disputando um jogo mortal pelo controle dos Sete Reinos de Westeros para assumir o Trono de Ferro. A série foi filmada em Malta e no norte da Irlanda, tendo participação do escritor dos livros.', '13', '1', '8', '18 anos', '60min');
+INSERT INTO `series` VALUES ('4', 'His Dark Materials', '2019', 'Philip Pullman, Jack Thorne, Namsi Khan, Sarah Qui', 'Durante sua busca por um amigo sequestrado, uma valente garota chamada Lyra descobre uma trama sinistra envolvendo crianças desaparecidas e um fenômeno misterioso chamado Dust.', '21', '1', '3', '14 anos', '43min');
+INSERT INTO `series` VALUES ('5', 'A CASA DO DRAGÃO', '2022', 'Miguel Sapochnik', 'Os apoiadores de Aegon Targaryen entram em conflito com os adeptos de sua meia-irmã, Rhaenyra, pelo trono de Viserys I, seu falecido pai, iniciando uma guerra civil cerca de 200 anos antes dos eventos retratados em \"Game of Thrones\".', '13', '1', '1', '16 anos', '50min');
+INSERT INTO `series` VALUES ('6', 'O Senhor dos Anéis: Os Anéis de Poder', '2022', 'Patrick McKay, John D. Payne, Gennifer Hutchison, ', 'Em uma época de paz, um grupo de guerreiros enfrenta o ressurgimento do mal na Terra-Média. Das profundezas escuras das Montanhas de Névoa, das majestosas florestas de Lindon, até os confins do mapa, o legado desses heróis é maior do que suas vidas.', '13', '1', '1', '16 anos', '60min');
+INSERT INTO `series` VALUES ('7', 'A RODA DO TEMPO', '2021', 'Robert Jordan; Brandon Sanderson ', 'Moiraine, membro de uma organização mágica, leva cinco jovens em uma jornada cheia de desafios, acreditando que um deles pode ser o Dragão Renascido, um indivíduo poderoso que, segundo a profecia, irá salvar ou destruir o mundo.', '1', '13', '1', '16 anos', '60min');
+INSERT INTO `series` VALUES ('8', 'THE SANDMAN', '2022', ' Neil Gaiman, Allan Heinberg, David S. Goyer', 'Após anos aprisionado, Morpheus, o Rei dos Sonhos, embarca em uma jornada entre mundos para recuperar o que lhe foi roubado e restaurar seu poder.', '13', '1', '1', '16 anos', '60min');
+INSERT INTO `series` VALUES ('9', 'SOMBRA E OSSOS', '2021', 'Leigh Bardugo, Eric Heisserer, Vanya Asher, Christ', 'Forças sinistras conspiram contra uma jovem depois dela revelar um poder capaz de unir seu mundo.', '16', '21', '1', '16 anos', '60min');
+INSERT INTO `series` VALUES ('10', 'STRANGER THINGS', '2016', 'Matt Duffer, Ross Duffer, Jessie Nickson-Lopez, Ka', 'Um grupo de amigos se envolve em uma série de eventos sobrenaturais na pacata cidade de Hawkins. Eles enfrentam criaturas monstruosas, agências secretas do governo e se aventuram em dimensões paralelas.', '25', '27', '4', '16 anos', '55min');
+INSERT INTO `series` VALUES ('11', 'The Witcher', '2019', 'Konrad Tomaszkiewicz', 'O mutante Geralt de Rívia é um caçador de monstros que luta para encontrar seu lugar em um mundo onde as pessoas, muitas vezes, são mais perversas do que as criaturas selvagens.', '2', '16', '2', '18 anos', '60min');
+INSERT INTO `series` VALUES ('12', 'THE UMBRELLA ACADEMY', '2019', 'Steve Blackman, Jeremy Slater', 'Irmãos com poderes extraordinários se reúnem depois de passar muito tempo afastados e descobrem surpreendentes segredos de família. A família enfrenta viagens no tempo, assassinos e o fim do mundo.', '1', '2', '3', '18 anos', '60min');
+INSERT INTO `series` VALUES ('13', '911 LONE STAR', '2020', 'Ryan Murphy, Brad Falchuk, Tim Minear', 'Há quase 20 anos, Owen Strand foi o único sobrevivente do seu quartel de bombeiros nos ataques de 11 de setembro. Ele leva as suas filosofias progressistas de vida e combate a incêndios a um quartel no Texas, onde ele ajuda o pelotão a recomeçar.', '13', '21', '3', '14 anos', '50min');
+INSERT INTO `series` VALUES ('14', 'BONES', '2005', 'John Francis Daley, Kathy Reichs, Hart Hanson, MAI', 'Temperance Brennan, uma antropóloga forense que trabalha no Instituto Jeffersonian e também escreve livros, possui um talento impressionante para enxergar pistas em ossos de vítimas. Por causa dessa habilidade, a polícia a chama para ajudar em investigações quando os restos mortais estão tão decompostos, queimados ou destruídos que métodos de identificação padrão são inúteis. Temperance frequentemente trabalha em parceria com o agente especial Seeley Booth, ex-atirador de elite do exército que não confia na ciência ou em cientistas para resolver crimes, mas desenvolveu um respeito pessoal e pr', '21', '1', '12', '12 anos', '44min');
+INSERT INTO `series` VALUES ('15', 'CALL SAUL', '2015', 'Vince Gilligan, Peter Gould, Thomas Schnauz', 'Jimmy McGill, também como conhecido como Saul Goodman, tenta ser um homem honesto e construir uma carreira de respeito. Mas há um lado seu que só quer aplicar golpes e se tornar um advogado picareta.', '13', '1', '6', '16 anos', '54min');
+INSERT INTO `series` VALUES ('16', 'LUPIN', '2021 ', 'Marcela Said, Ludovic Bernard, Louis Leterrier, Hu', 'Inspirado pelas aventuras de Arsène Lupin, o ladrão gentil Assane Diop quer se vingar de uma família rica por uma injustiça cometida contra o pai dele.', '21', '23', '2', '16anos', '50min');
+INSERT INTO `series` VALUES ('17', 'PEARSON', '2018', 'Aaron Korsh; Daniel Arkin; Gina Torres; Doug Liman', 'Jessica Pearson é uma advogada que acaba cassada e se ajusta ao universo político sujo de Chicago.', '13', '16', '1', '12 anos', '45min');
+INSERT INTO `series` VALUES ('18', 'PRIVATE PRACTICE', '2007', 'Shonda Rhimes, Krista Vernoff, Kathy McCormick,', 'A cirurgiã Addison Montgomery foge de um triângulo amoroso, deixando para trás amigos e inimigos no Hospital Seattle; Grace em busca de um recomeço na cidade de Los Angeles.', '13', '27', '6', '14 anos', '43min');
+INSERT INTO `series` VALUES ('19', 'SUITS', '2011 ', 'Aaron Korsh, Nora Zuckerman, Paul Redford', 'O grande advogado corporativo de Manhattan, Harvey Specter, e sua equipe, Donna Paulsen, Louis Litt e Alex Williams, são lançados em uma disputa pelo poder quando um novo sócio se junta à empresa. Com seus dois melhores associados desaparecidos e Jessica de volta a Chicago, Specter e a equipe tentam se adaptar a uma nova normal sem eles. A equipe enfrenta traições, relacionamentos ardentes e segredos que acabam sendo revelados. Velhas e novas rivalidades vêm à luz entre os membros da equipe, à medida que aprendem a lidar com o novo membro.', '13', '27', '9', '14 anos', '43min');
+INSERT INTO `series` VALUES ('20', 'THE CROWN', '2016', 'Peter Morgan, Duncan Macmillan, Nick Payne, Tom Ed', 'Uma crônica da vida da Rainha Elizabeth II dos anos 1940 aos tempos modernos. Com o passar das décadas, intrigas pessoais, romances e rivalidades políticas foram revelados e ajudaram a moldar o século XX.', '30', '13', '5', '14 anos', '60min');
+INSERT INTO `series` VALUES ('21', 'O URSO', '2022 ', 'Christopher Storer', 'The Bear é uma série de televisão de comédia dramática americana criada por Christopher Storer. Estreou no FX on Hulu em 23 de junho de 2022, com Jeremy Allen White, Ebon Moss-Bachrach, Ayo Edebiri, Lionel Boyce, Liza Colón-Zayas, e Abby Elliott. A série recebeu elogios da crítica.', '13', '5', '1', '16 anos', '27min');
+INSERT INTO `series` VALUES ('22', 'WANDAVISION', '2021  ', 'Matt Shakman', 'Vivendo vidas suburbanas perfeitas, Wanda e Visão começam a suspeitar que nem tudo é o que parece.', '24', '17', '1', '12anos', '30min');
+INSERT INTO `series` VALUES ('23', 'YOU', '2018  ', ' Sera Gamble, Greg Berlanti, Caroline Kepnes, Apri', 'Obsessivo e mortalmente charmoso, Joe vai ao extremo para entrar na vida de quem o fascina. Por trás de seus modos gentis, há uma fúria assassina e um passado perturbador.', '27', '13', '4', '18anos', '30min');
+INSERT INTO `series` VALUES ('24', 'BRIDGERTON', '2020  ', 'Chris Van Dusen', 'Oito irmãos inseparáveis buscam amor e felicidade na alta sociedade de Londres.', '24', '21', '2', '16anos', '60min');
+INSERT INTO `series` VALUES ('25', 'CARNIVAL ROW', '2019  ', 'Travis Beacham, René Echevarria', 'Um detetive humano e uma fada reacendem uma paixão perigosa em um mundo de fantasia vitoriano. A paz inquieta da cidade desmorona quando uma série de assassinatos revela um monstro inimaginável.', '1', '2', '1', '16anos', '60min');
+INSERT INTO `series` VALUES ('26', 'GRAYS ANATOMY', '2005  ', 'Shonda Rhimes', 'A série médica de enorme sucesso foca em um grupo de jovens médicos do Hospital Grace Mercy West, de Seattle, que começaram a carreira na própria instituição como residentes. Um dos jovens médicos que dá nome ao show, Meredith Grey, é filha de um famoso cirurgião. Meredith luta para manter as relações com seus colegas, especialmente o chefe do centro cirúrgico, Richard Webber, devido ao relacionamento que já existia entre os dois -- Webber teve um caso com a mãe de Meredith na época em que ela era jovem.', '13', '27', '19', '14anos', '43min');
+INSERT INTO `series` VALUES ('27', 'HEARTOPPER', '2022  ', 'Euros Lyn', 'Os adolescentes Charlie e Nick descobrem que são mais que apenas amigos e precisam lidar com as dificuldades da vida escolar e amorosa.', '29', '13', '1', '12anos', '30min');
+INSERT INTO `series` VALUES ('28', 'JANE VIRGIN', '2014  ', 'Joana,', 'Jane trabalha em um hotel. Ela tem um noivo que a ama muito e respeita o fato de ela querer chegar virgem ao altar. Mas seus planos mudam, quando ela é inseminada por engano. Para piorar, o sêmen é de seu chefe, um antigo amor platônico de Jane.', '13', '9', '5', '14anos', '40min');
+INSERT INTO `series` VALUES ('29', 'LOVE VICTOR', '2020  ', 'Isaac Aptaker,Elizabeth Berger', 'O adolescente Victor está em uma jornada de autodescoberta durante a qual enfrenta desafios em casa, se ajusta a uma nova cidade, a um novo colégio e com sua orientação sexual.', '13', '24', '3', '14anos', '28min');
+INSERT INTO `series` VALUES ('30', 'MAGNOLIAS', '2020', 'Sherryl Woods, Sheryl J. Anderson', 'Juntas, as amigas Maddie, Helen e Dana Sue lidam com problemas amorosos, familiares e profissionais na pequena cidade de Serenity.', '24', '13', '2', '12anos', '50min');
+INSERT INTO `series` VALUES ('31', 'MODERN LOVE', '2019', 'Minnie Driver, Tom Burke, Gbenga Akinnagbe', 'Um olhar para o amor em suas mais variadas formas, da paixão romântica ao carinho de uma família. Histórias únicas sobre as alegrias e tribulações do amor.', '24', '13', '2', '16anos', '30min');
+INSERT INTO `series` VALUES ('32', 'OUTLANDER', '2014', 'Diana Gabaldon', 'Em 1945, em lua de mel na Escócia, a enfermeira em combate Claire Randall é misteriosamente transportada através do tempo para o ano de 1743.', '13', '24', '6', '16anos', '60min');
+INSERT INTO `series` VALUES ('33', 'THIS IS US', '2016', 'Dan Fogelman', 'A história da família Pearson começa em 1979, no dia que os trigêmeos Jack, Kate e Randall chegam em casa da maternidade. Revelações sobre os pais Jack e Rebecca surgem nos momentos de amor, mas também de dor, e moldam para sempre a vida de todos.', '24', '13', '6', '14anos', '43min');
+INSERT INTO `series` VALUES ('34', 'VERÃO DA MINHA VIDA', '2013', 'Nat Faxon, Jim Rash', 'Durante as férias de verão, um garoto menosprezado pelo namorado de sua mãe faz amizade com um funcionário de um parque aquático. Além de encontrar um amigo e mentor, o jovem recupera a sua autoestima.', '13', '5', '6', '14anos', '43min');
+INSERT INTO `series` VALUES ('35', 'VIRGIN RIVER', '2019', ' Sue Tenney, Robyn Carr, Jackson Rock, Patrick Mos', 'Uma enfermeira se muda de Los Angeles para uma cidadezinha no norte da Califórnia em busca de um recomeço. Mas a nova vida vai ser bem diferente do que ela imagina.', '13', '24', '4', '14anos', '50min');
+INSERT INTO `series` VALUES ('36', 'BROOKLYN 99', '2013', 'Andy Samberg, Marshall Boone', 'A série gira em torno de Jake Peralta (Andy Samberg), um imaturo, mas talentoso, detetive da polícia de Nova York na fictícia 99. ª Delegacia do Brooklyn, que muitas vezes entra em conflito com seu novo comandante, o sério e severo capitão Raymond Holt (Andre Braugher).', '5', '23', '3', '14 anos', '460min');
+INSERT INTO `series` VALUES ('37', 'The Big Bang Theory', '2019', 'Mark Cendrowski', ' Dois jovens gênios da física, Leonard (Johnny Galecki) e Sheldon Cooper (Jim Parsons), dividem um apartamento e são surpreendidos ao descobrir que a vizinha, Penny (Kaley Cuoco), é uma loira não tão inteligente. Leonard acredita que pode conquistar a jovem.', '5', '5', '12', '12 anos', '18–22 min');
+INSERT INTO `series` VALUES ('38', 'FLEABAG', '2016', 'Harry Bradbeer, Tim Kirkby', 'Fleabag é uma jovem adulta lidando com problemas quase universais sob o ponto de vista feminino: problemas de relacionamento, frustração sexual e profissional, conflitos familiares. Uma mulher moderna vivendo em Londres, ela está tentando curar uma ferida enquanto recusa ajuda daqueles à sua volta, mantendo seu perfil intimidante o mais intacto possível.', '5', '5', '2', '16 anos', '152min');
+INSERT INTO `series` VALUES ('39', 'Friends', '1994', ' Ben Winston', 'Seis jovens são unidos por laços familiares, românticos e, principalmente, de amizade, enquanto tentam vingar em Nova York. Rachel é a garota mimada que deixa o noivo no altar para viver com a amiga dos tempos de escola Monica, sistemática e apaixonada pela culinária', '24', '5', '10', '12 anos', '86h');
+INSERT INTO `series` VALUES ('40', 'The Good Place', '2016', ' Michael Schur.', 'Eleanor Shellstrop (Kristen Bell) está morta. Acontece que, após sua partida, ela foi enviada ao \"Good Place - ou \"Lugar Bom\" -, um lugar de eterna felicidade destinado às pessoas que fizeram o bem durante suas vidas. Lá, todos são bons e encontram as suas almas gêmeas, com quem passarão o resto da eternidade', '5', '16', '4', '16 anos', '319min');
+INSERT INTO `series` VALUES ('41', 'How I Met Your Mother', '2005', ' Joshua Thomas Radnor.', 'Em 2030, o arquiteto Ted Mosby (Josh Radnor) conta a história sobre como conheceu a mãe dos seus filhos. Ele volta no tempo para 2005, relembrando suas aventuras amorosas em Nova York e a busca pela mulher dos seus sonhos.', '8', '13', '9', '13 anos', '483min');
+INSERT INTO `series` VALUES ('42', 'Modern Family', '2009', 'Steven E. Levitan', 'A série foca-se nos relacionamentos entre uma família liderada por Jay Pritchett (Ed O Neill), que após divorciar-se, casou-se com uma mulher colombiana bem mais nova que ele e certamente atraente, Gloria Delgado (Sofía Vergara), mãe do pré-adolescente Manny Delgado (Rico Rodriguez).', '8', '5', '5', '12 anos', '20–24 min');
+INSERT INTO `series` VALUES ('43', 'One Day at a Time', '2017', 'Pamela Fryman', 'Na nova versão do clássico da TV sobre uma família de imigrantes cubanos, a mãe recém-divorciada e a avó careta criam uma adolescente e um pré-adolescente.', '5', '5', '4', '12 anos', '24–35 min');
+INSERT INTO `series` VALUES ('44', 'Eu, a Patroa e as Crianças', '2001', 'Kim Wayans Damon Wayans, Jr. Damon Wayans Damien D', 'Tudo o que Michael Kyle (Damon Wayans) quer é ter uma vida tradicional com sua família. Mas sua esposa, a comerciante Janet Jay (Tisha Campbell-Martin), o filho que é fã de rap e passa longe de ser o gênio da família, Michael Jr.', '5', '5', '5', 'Livre', '253min');
+INSERT INTO `series` VALUES ('45', 'She-Hulk', '2022', 'Kat Coiro', ' Jennifer Walters (Tatiana Maslany) é a uma dedicada advogada e prima de Bruce Banners (Mark Ruffalo). Certo dia, ela adquire superpoderes e se torna a Mulher-Hulk. Mesmo sem intenções de ser uma super-heroína, ela acabará se tornando um símbolo na defesa de outros heróis.', '1', '2', '1', '14', '30min');
+INSERT INTO `series` VALUES ('46', 'The Oficce', '2005', 'Bryan Cranston', ' A série acompanha o dia-a-dia do escritório de uma fábrica de papel, a Dunder Miffin, localizada em Scranton, na Pensilvânia. Mostra o chefe Michael tentando estimular seus insatisfeitos funcionários em meio a diversas crises e comportamentos peculiares.', '8', '9', '9', '14 anos', '290min');
+INSERT INTO `series` VALUES ('47', '911', '2018', 'Tarsem Singh', 'O drama explora as vidas de policiais, paramédicos e bombeiros que precisam enfrentar as situações mais assustadoras e chocantes, enquanto respondem a chamados de emergência, e devem equilibrar o trabalho de salvar os mais vulneráveis e resolver os problemas em suas próprias vidas.', '1', '1', '6', '14 anos', '42min');
 
 -- ----------------------------
 -- Table structure for usuarios
@@ -707,10 +1084,10 @@ CREATE TABLE `usuarios` (
   `EMAIL` varchar(50) DEFAULT NULL,
   `SENHA` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`CODUSUARIO`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4;
 
 -- ----------------------------
 -- Records of usuarios
 -- ----------------------------
-INSERT INTO `usuarios` VALUES ('2', 'teste', 'thulio.batista@multicine.com.br', '123');
-INSERT INTO `usuarios` VALUES ('3', 'teste', 'thulio.batista@rbmweb.com.br', '123');
+INSERT INTO `usuarios` VALUES ('1', 'thulio da silva batista', 'thulio.batista@multicine.com.br', '123');
+INSERT INTO `usuarios` VALUES ('2', 'teste', 'thulio.batista@rbmweb.com.br', '123');
