@@ -1,15 +1,18 @@
+body{ 
+    margin: 0px;
+    padding: 0px;
+}
 .series-filmes{
-    display: inline;
-    align-items: center;
-    margin: auto;
-    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
 }
 .series-filmes > a > img{
     margin: auto;
     border-radius: 6px;
     box-shadow: 6px 8px 10px black;
-    width: 21.5%;
-    margin: 10px;
+    width: 22.5%;
+    margin: 12px 10px;
 }
 .series-filmes > a > img:hover{
     outline: 4.5px solid white;
