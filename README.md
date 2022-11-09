@@ -7,7 +7,7 @@
     :construction:  Projeto em construção  :construction:
     </h4>
 
-## Tecnologias a serem utilizadas
+## 🚀 Tecnologias a serem utilizadas
 - ``HTML``
 - ``CSS``
 - ``JavaScript``
@@ -15,7 +15,7 @@
 - ``Banco de Dados``
 - ``PHP``
 
-## Equipe do Projeto
+## 👨‍💻 Equipe do Projeto
 > Equipe Principal
 - Rubens Gabriel  ``FrontEnd``
 - Vitória Magalhães  ``BackEnd``
@@ -25,14 +25,18 @@
 > Equipe Auxiliar
 - Esther Cardoso  ``FrontEnd``
 
-## Instrução para utilização 
+## 💁🏻 Instrução para utilização 
 > Utilizar o Xampp 
 - iniciar o Apache
 - iniciar o Mysql
 - colar a pasta do projeto em \xampp\htdocs
 - no navegador digitar ``http://localhost/streaming/``
 
-## Link para o site
+## :memo: Licença
+
+Esse projeto está sob a licença MIT.
+
+## 🔗 Link para o site
 ```
 https://rubensgabriel.github.io/streaming/
 ```
