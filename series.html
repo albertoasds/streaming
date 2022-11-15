@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="estilo/principal.css">
   <link rel="stylesheet" href="estilo/responsivo-multicine.css">
   <link rel="stylesheet" href="estilo/series.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 
 <body>
@@ -22,63 +24,171 @@
       </div>
       <ul>
         <li><a href="multicine.html" class="center">Início</a></li>
-        <li><a href="#" class="center">Pesquisa</a></li>
         <li><a href="filmes.html" class="center">Filmes</a></li>
         <li><a href="series.html" class="center">Séries</a></li>
-        <li><a href="index.html" class="center">Sair</a></li>
+        <li id="usuario"><img src="./imagens/user.png" alt="usuario"> <p>Usuário</p>
+          <ul id="sub-menu">
+            <li><a class="center" href="#">Conta</a></li>
+            <li><a class="center" href="#">Sair</a></li>
+          </ul>
+        </li>
       </ul>
     </nav>
   </header>
-    <div class="series-filmes">
-      <a href="#"><img src="imagens/Series/destaque principal/aneis poder.jpg" alt=""></a>
-      <a href="#"><img src="imagens/Series/destaque principal/his dark.jpg" alt=""></a>
-      <a href="#"><img src="imagens/Series/destaque principal/arcane p.jpg" alt=""></a>
-      <a href="#"><img src="imagens/Series/destaque principal/desventuras p.jpg" alt=""></a>
-      <a href="#"><img src="imagens/Series/destaque principal/got p.jpg" alt=""></a>
-      <a href="#"><img src="imagens/Series/destaque principal/house of dragon p.webp" alt=""></a>
-      <a href="#"><img src="imagens/Series/destaque principal/roda tempo p.jpg" alt=""></a>
-      <a href="#"><img src="imagens/Series/destaque principal/sandman p.jpg" alt=""></a>
-      <a href="#"><img src="imagens/Series/destaque principal/shadow bone p.jpg" alt=""></a>
-      <a href="#"><img src="imagens/Series/destaque principal/stranger things p.jpg" alt=""></a>
-      <a href="#"><img src="imagens/Series/destaque principal/the witcher p.jpg" alt=""></a>
-      <a href="#"><img src="imagens/Series/destaque principal/umbrella p.jpg" alt=""></a>
-      <a href="#"><img src="imagens/Series/comedia/b99.webp" alt="..."></a>
-      <a href="#"><img src="imagens/Series/comedia/big bang.webp" alt="..."></a>
-      <a href="#"><img src="imagens/Series/comedia/fleabag.jpg" alt="..."></a>
-      <a href="#"><img src="imagens/Series/comedia/friends.webp" alt="..."></a>
-      <a href="#"><img src="imagens/Series/comedia/good  place.jpg" alt="..."></a>
-      <a href="#"><img src="imagens/Series/comedia/himym.jfif" alt="..."></a>
-      <a href="#"><img src="imagens/Series/comedia/modern family.jfif" alt="..."></a>
-      <a href="#"><img src="imagens/Series/comedia/odtaat.jpg" alt="..."></a>
-      <a href="#"><img src="imagens/Series/comedia/patroa_crianças.jfif" alt="..."></a>
-      <a href="#"><img src="imagens/Series/comedia/she hulk.jfif" alt="..."></a>
-      <a href="#"><img src="imagens/Series/comedia/sra masel.jpg" alt="..."></a>
-      <a href="#"><img src="imagens/Series/comedia/the office.jfif" alt="..."></a>
-      <a href="#"><img src="imagens/Series/romance/bridgerton.jpg" alt="..."></a>
-      <a href="#"><img src="imagens/Series/romance/carnival_row.jpg" alt="..."></a>
-      <a href="#"><img src="imagens/Series/romance/greys_anatomy.jfif" alt="..."></a>
-      <a href="#"><img src="imagens/Series/romance/heartstopper.jpg" alt="..."></a>
-      <a href="#"><img src="imagens/Series/romance/jane_virgin.webp" alt="..."></a>
-      <a href="#"><img src="imagens/Series/romance/love_victor.jfif" alt="..."></a>
-      <a href="#"><img src="imagens/Series/romance/magnolias.jpg" alt="..."></a>
-      <a href="#"><img src="imagens/Series/romance/modern_love.jpg" alt="..."></a>
-      <a href="#"><img src="imagens/Series/romance/outlander.jfif" alt="..."></a>
-      <a href="#"><img src="imagens/Series/romance/this_is_us.jfif" alt="..."></a>
-      <a href="#"><img src="imagens/Series/romance/verao_minha_vida.jpg" alt="..."></a>
-      <a href="#"><img src="imagens/Series/romance/virgin_river.jpg" alt="..."></a>
-      <a href="#"><img src="imagens/Series/drama/911.jfif" alt="..."></a>
-      <a href="#"><img src="imagens/Series/drama/911lonestar.jfif" alt="..."></a>
-      <a href="#"><img src="imagens/Series/drama/bones.jfif" alt="..."></a>
-      <a href="#"><img src="imagens/Series/drama/call_saul.jpg" alt="..."></a>
-      <a href="#"><img src="imagens/Series/drama/lupin.jpg" alt="..."></a>
-      <a href="#"><img src="imagens/Series/drama/pearson.jpg" alt="..."></a>
-      <a href="#"><img src="imagens/Series/drama/private_practice.jfif" alt="..."></a>
-      <a href="#"><img src="imagens/Series/drama/suits.webp" alt="..."></a>
-      <a href="#"><img src="imagens/Series/drama/the_crown.jpg" alt="..."></a>
-      <a href="#"><img src="imagens/Series/drama/urso.jfif" alt="..."></a>
-      <a href="#"><img src="imagens/Series/drama/wandavision.jfif" alt="..."></a>
-      <a href="#"><img src="imagens/Series/drama/you.jpg" alt="..."></a>
+
+  <div class="container">
+    <div class="search-box">
+      <i class="bx bx-search"></i>
+      <input type="text" placeholder="Pesquise a série">
     </div>
+
+    <div class="imagens">
+      <div class="imagem-box" data-name="aneis">
+        <a href="#"><img src="imagens/Series/destaque principal/aneis poder.jpg" alt=""></a>
+      </div>
+     <div class="imagem-box" data-name="his dark">
+        <a href="#"><img src="imagens/Series/destaque principal/his dark.jpg" alt=""></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/destaque principal/arcane p.jpg" alt=""></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/destaque principal/desventuras p.jpg" alt=""></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/destaque principal/got p.jpg" alt=""></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/destaque principal/house of dragon p.webp" alt=""></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/destaque principal/roda tempo p.jpg" alt=""></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/destaque principal/sandman p.jpg" alt=""></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/destaque principal/shadow bone p.jpg" alt=""></a>
+      </div>
+      <div class="imagem-box" data-name="">
+      <a href="#"><img src="imagens/Series/destaque principal/stranger things p.jpg" alt=""></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/comedia/big bang.webp" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/comedia/b99.webp" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/destaque principal/umbrella p.jpg" alt=""></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/destaque principal/the witcher p.jpg" alt=""></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/comedia/fleabag.jpg" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/comedia/modern family.jfif" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/comedia/himym.jfif" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/comedia/good  place.jpg" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/comedia/friends.webp" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/comedia/odtaat.jpg" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/comedia/patroa_crianças.jfif" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/comedia/she hulk.jfif" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/comedia/sra masel.jpg" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/comedia/the office.jfif" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/romance/bridgerton.jpg" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/romance/carnival_row.jpg" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/romance/greys_anatomy.jfif" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/romance/heartstopper.jpg" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/romance/jane_virgin.webp" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/romance/love_victor.jfif" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/romance/this_is_us.jfif" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/romance/outlander.jfif" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/romance/modern_love.jpg" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/romance/magnolias.jpg" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/romance/verao_minha_vida.jpg" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/romance/virgin_river.jpg" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/drama/911.jfif" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/drama/911lonestar.jfif" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/drama/bones.jfif" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/drama/call_saul.jpg" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/drama/lupin.jpg" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/drama/pearson.jpg" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/drama/private_practice.jfif" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/drama/suits.webp" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/drama/the_crown.jpg" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/drama/urso.jfif" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/drama/wandavision.jfif" alt="..."></a>
+      </div>
+      <div class="imagem-box" data-name="">
+        <a href="#"><img src="imagens/Series/drama/you.jpg" alt="..."></a>
+      </div>
+    </div>
+  </div>
     
     <!--================================================= RODAPÉ DA PÁGINA ===================================================-->
 
@@ -93,3 +203,6 @@
     <p>Com o auxílio de <a href="https://github.com/Esther-Cardoso">Esther Cardoso</a></p>
     <p>&#169 Multicine. Todos os direitos reservados</p>
   </footer>
+  <script src="js/script.js"></script>
+</body>
+</html> 

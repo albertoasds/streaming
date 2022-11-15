@@ -36,11 +36,12 @@ nav{
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    align-items: end;
+    align-items: center;
 }
 nav ul {
     list-style: none;
     display: flex;
+    align-items: center;
 }
 nav li > a{
     text-decoration: none;
@@ -81,7 +82,80 @@ a:hover{
     display: none;
 }
 
-/* =================== aniamação menu ========================== */
+#usuario {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 30px;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+#usuario p {
+    color: #fff;
+    font-size: 12px;
+}
+
+#sub-menu {
+    background-color: #363536;
+    position: absolute;
+    top: 35px;
+    left: -50px;
+    z-index: 2;
+    border-radius: 4px;
+    flex-direction: column;
+    display: none;
+    transition-duration: 1s;
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#sub-menu li {
+    width: 100%;
+    margin: 0px;
+    float: left;
+    padding: 5px;
+}
+
+#sub-menu li a {
+    color: #fff;
+    display: block;
+    text-align: left;
+    padding: 7px 5px;
+    margin: 5px;
+}
+
+#sub-menu li a::before {
+    display: none;
+}
+
+#usuario:hover ul{
+    display: block; 
+}
+
+#sub-menu::after {
+    clear:both;
+    content: "";
+    display: block;
+}
+
+#sub-menu li:hover{
+    background-color: rgb(32, 32, 32);
+    transition-duration: 0.5s;
+    border-radius: 4px;
+}
+
+
+/* =================== animação menu ========================== */
 nav li a::before {
     content: '';
     position: absolute;
