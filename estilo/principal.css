@@ -95,7 +95,6 @@ a:hover{
     justify-content: center;
     align-items: center;
 
-    
 }
 
 #usuario p {
@@ -156,6 +155,7 @@ a:hover{
 
 
 /* =================== animação menu ========================== */
+
 nav li a::before {
     content: '';
     position: absolute;
@@ -174,7 +174,107 @@ nav li a::before {
   nav li a:hover::before {  
     transform: scale(1, 1);
   }
-/* ================================================================================= */
+  
+:root {
+    --primColor: #dcdcdc;
+    --secoColor: #555555;
+    --cornerRad: 4px;
+  }
+  .botao-menu{
+    margin: 40px;
+  }
+  #usuario{
+    text-align: center;
+    padding: 12px 10px;
+    width: 60px;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+    transition: transform 200ms ease-in-out 0s;
+  }
+  #usuario::before,
+  #usuario::after {
+    position: static;
+    top: 0;
+    left: 0;
+  }
+  #usuario:hover {
+    transform: scale(1.1);
+  }
+  #usuario::marker {
+    font-size: 0;
+  }
+  #usuario::-webkit-details-marker {
+    display: none;
+  }
+  .botao-menu[open] #sub-menu {
+    animation-name: menuAnim;
+  }
+  .botao-menu[open] #usuario::before {
+    content: "X";
+  }
+  .botao-menu[open] #usuario::after {
+    content: "";
+  }
+  #sub-menu {
+    height: 0;
+    width: fit-content;
+    border-radius: var(--cornerRad);
+    background-color: var(--primColor);
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    animation: closeMenu 300ms ease-in-out forwards;
+  }
+  #sub-menu li {
+    padding: 12px 24px;
+    margin: 0 16px;
+    color: var(--secoColor);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    text-align: center;
+    transition: filter 200ms linear 0s;
+  }
+  #sub-menu li:nth-of-type(1) {
+    padding-top: 24px;
+  }
+  #sub-menu li:nth-last-of-type(1) {
+    border-bottom: none;
+  }
+  #sub-menu li:hover {
+    filter: brightness(200%);
+  }
+  .botao-menu::before {
+    color: var(--secoColor);
+    position: absolute;
+    margin-left: 80px;
+    padding: 10px 10px;
+    opacity: 0.4;
+  }
+  .botao-menu[open]::before {
+    animation: fadeMe 300ms linear forwards;
+  }
+@keyframes menuAnim {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 312px;
+  }
+}
+@keyframes fadeMe {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/*================================================================================= */
 
 /* ========================== SECTION FILMES E SÉRIES ============================== */
 
