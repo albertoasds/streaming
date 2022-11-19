@@ -5,11 +5,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
 *{
     margin: 0px;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto';
 }
 a {
     text-decoration: none;
@@ -25,244 +26,227 @@ body{
 }
 h2{
     color: white;
-    font-size: 1.8em;
+    font-size: 1.7em;
 }
 
 /* ================================================================================= */
 
 /* =========================== NAVEGAÇÃO E PARTE INICIAL =========================== */
 
-nav{
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to bottom, rgb(0, 0, 10), transparent);
 }
-nav ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
+header > a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1em;
+  padding-bottom: 5px;
+  position: relative;
 }
-nav li > a{
-    text-decoration: none;
-    color: white;
-    margin: 20px;
-    font-size: 1.1em;
-    padding-bottom: 5px;
-    position: relative;
+
+#logo {
+  text-decoration: none;
+  font-size: 2.5em;
+  font-family: 'Montserrat';
+  color: #c7c7e2;
+  font-weight: bold;
 }
-#logo{
-    text-decoration: none;
-    font-size: 2.5em;
-    font-family: 'Montserrat';
-    color: #c7c7e2;
-    font-weight: bold;
-}
+
 #area-principal{
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
 }
-.poster{
-    margin: auto;
-    max-width: 100%;
-    max-height: 350px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    box-shadow: 6px 7px 8px rgba(0, 0, 0, 0.226);
+
+.poster {
+  margin: auto;
+  max-width: 100%;
+  max-height: 350px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 6px 7px 8px rgba(0, 0, 0, 0.226);
 }
-a:hover{
-    text-decoration-line: none;
-    color: white;
+
+a:hover {
+  text-decoration-line: none;
+  color: white;
 }
-#logotipo{
-    width: 60px;
+
+#logotipo {
+  width: 60px;
 }
+
 #logotipo-mobile {
-    display: none;
+  display: none;
 }
 
-#usuario {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin-left: 30px;
-
-    position: relative;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+.menu > a {
+  float: left;
+  padding: 5px;
+  color: #fff;
+  display: block;
+  text-align: left;
+  padding: 7px 5px;
+  margin: 5px;
 }
 
-#usuario p {
-    color: #fff;
-    font-size: 12px;
+.menu a::before {
+  display: none;
 }
 
-#sub-menu {
-    background-color: #363536;
-    position: absolute;
-    top: 35px;
-    left: -50px;
-    z-index: 2;
-    border-radius: 4px;
-    flex-direction: column;
-    display: none;
-    transition-duration: 1s;
-    text-align: left;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+.menu::after {
+  clear:both;
+  content: "";
+  display: block;
 }
 
-#sub-menu li {
-    width: 100%;
-    margin: 0px;
-    float: left;
-    padding: 5px;
+header > a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.175rem;
+  left: 0;
+  bottom: 0;
+  background: white;
 }
 
-#sub-menu li a {
-    color: #fff;
-    display: block;
-    text-align: left;
-    padding: 7px 5px;
-    margin: 5px;
+header > a.center::before {
+  transform: scale(0, 1);
+  transition: .3s ease;
 }
 
-#sub-menu li a::before {
-    display: none;
-}
-
-#usuario:hover ul{
-    display: block; 
-}
-
-#sub-menu::after {
-    clear:both;
-    content: "";
-    display: block;
-}
-
-#sub-menu li:hover{
-    background-color: rgb(32, 32, 32);
-    transition-duration: 0.5s;
-    border-radius: 4px;
+header > a:hover::before {  
+  transform: scale(1, 1);
 }
 
 
-/* =================== animação menu ========================== */
-
-nav li a::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 0.175rem;
-    left: 0;
-    bottom: 0;
-    background: white;
-  }
-
-  nav li a.center::before {
-    transform: scale(0, 1);
-    transition: .3s ease;
-  }
-  
-  nav li a:hover::before {  
-    transform: scale(1, 1);
-  }
-  
 :root {
-    --primColor: #dcdcdc;
-    --secoColor: #555555;
-    --cornerRad: 4px;
-  }
-  .botao-menu{
-    margin: 40px;
-  }
-  #usuario{
-    text-align: center;
-    padding: 12px 10px;
-    width: 60px;
-    cursor: pointer;
-    user-select: none;
-    outline: none;
-    transition: transform 200ms ease-in-out 0s;
-  }
-  #usuario::before,
-  #usuario::after {
-    position: static;
-    top: 0;
-    left: 0;
-  }
-  #usuario:hover {
-    transform: scale(1.1);
-  }
-  #usuario::marker {
-    font-size: 0;
-  }
-  #usuario::-webkit-details-marker {
-    display: none;
-  }
-  .botao-menu[open] #sub-menu {
-    animation-name: menuAnim;
-  }
-  .botao-menu[open] #usuario::before {
-    content: "X";
-  }
-  .botao-menu[open] #usuario::after {
-    content: "";
-  }
-  #sub-menu {
-    height: 0;
-    width: fit-content;
-    border-radius: var(--cornerRad);
-    background-color: var(--primColor);
-    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
-    margin-top: 8px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    overflow: hidden;
-    animation: closeMenu 300ms ease-in-out forwards;
-  }
-  #sub-menu li {
-    padding: 12px 24px;
-    margin: 0 16px;
-    color: var(--secoColor);
-    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
-    text-decoration: none;
-    text-align: center;
-    transition: filter 200ms linear 0s;
-  }
-  #sub-menu li:nth-of-type(1) {
-    padding-top: 24px;
-  }
-  #sub-menu li:nth-last-of-type(1) {
-    border-bottom: none;
-  }
-  #sub-menu li:hover {
-    filter: brightness(200%);
-  }
-  .botao-menu::before {
-    color: var(--secoColor);
-    position: absolute;
-    margin-left: 80px;
-    padding: 10px 10px;
-    opacity: 0.4;
-  }
-  .botao-menu[open]::before {
-    animation: fadeMe 300ms linear forwards;
-  }
+  --primColor: #dcdcdc;
+  --secoColor: #555555;
+  --cornerRad: 4px;
+}
+body {
+  background-color: var(--primColor);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+details {
+  margin: 0px 40px;
+}
+summary > img{
+  width: 150px;
+}
+summary > p {
+  color: #fff;
+  font-size: 12px;
+}
+summary {
+  display: inline;
+  writing-mode: horizontal-tb;
+  text-align: center;
+  padding: 12px 10px;
+  color: var(--secoColor);
+  cursor: pointer;
+  user-select: none;
+  outline: none;
+  transition: transform 200ms ease-in-out 0s;
+  max-width: 70px;
+  margin: 0px;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+summary::before, summary::after {
+  position: static;
+  top: 0;
+  left: 0;
+}
+summary:hover {
+  transform: scale(1.1);
+}
+summary::marker {
+  font-size: 0;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+details[open] .menu {
+  animation-name: menuAnim;
+}
+details[open] summary::after {
+  content: "";
+}
+.menu {
+  width: fit-content;
+  border-radius: var(--cornerRad);
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  animation: closeMenu 300ms ease-in-out forwards;
+  background-color: #363536;
+  position: absolute;
+  flex-direction: column;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  z-index: 2;
+}
+
+.menu > a {
+  padding: 10px 20px;
+  margin: 0px;
+  color: var(--secoColor);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  text-align: center;
+  transition: filter 200ms linear 0s;
+  float: left;
+  color: #fff;
+  display: block;
+  text-align: left;
+}
+
+.menu a:nth-of-type(1) {
+  padding-top: 15px;
+}
+
+.menu a:nth-last-of-type(1) {
+  border-bottom: none;
+}
+
+details::before {
+  color: var(--secoColor);
+  position: absolute;
+  margin-left: 80px;
+  padding: 10px;
+  opacity: 0.4;
+}
+
+details[open]::before {
+  animation: fadeMe 300ms linear forwards;
+}
+
+.menu > a:hover {
+  transition-duration: 5s;
+  background-color: rgb(43, 40, 40);
+  color: rgb(255, 255, 255);
+}
+
 @keyframes menuAnim {
   0% {
     height: 0;
   }
   100% {
-    height: 312px;
+    height: 107px;
   }
 }
 @keyframes fadeMe {

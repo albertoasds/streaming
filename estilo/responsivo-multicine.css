@@ -38,7 +38,7 @@
 }
 
 @media (max-width: 500px) {
-  nav {
+  header {
     flex-wrap: wrap;
     padding: 20px 10px;
   }
@@ -57,6 +57,21 @@
   }
   #pricipais-destaque-responsivo a img {
     width: 40%;
+  }
+  header > a {
+    font-size: 0.9em;
+  }
+  summary{
+    width: 60px;
+  }
+  details{
+    width: 50px;
+    
+  }
+  .menu{
+    width: 100px;
+    margin: 0px -10px;
+    padding: 0px;
   }
 }
 

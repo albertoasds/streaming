@@ -16,33 +16,31 @@
 <body>
   <!--======================== MENU SUPERIOR ==========================-->
   <header>
-    <nav>
-      <div><a id="logo" href="">MultCine <img id="logotipo" src="imagens/logo.png" alt="Logo"></a>
-        <img id="logotipo-mobile" src="imagens/logo.png" alt="Logo">
-      </div>
-      <ul>
-        <li><a href="multicine.html" class="center">Início</a></li>
-        <li><a href="filmes.html" class="center">Filmes</a></li>
-        <li><a href="series.html" class="center">Séries</a></li>
-        <li id="usuario"><img src="./imagens/user.png" alt="usuario"> <p>Usuário</p>
-          <ul id="sub-menu">
-            <li><a class="center" href="#">Conta</a></li>
-            <li><a class="center" href="#">Sair</a></li>
-          </ul>
-        </li>
-      </ul>
-    </nav>
+    <div><a id="logo" href="">MultCine <img id="logotipo" src="imagens/logo.png" alt="Logo"></a>
+      <img id="logotipo-mobile" src="imagens/logo.png" alt="Logo">
+    </div>
+        <a href="multicine.html" class="center">Início</a>
+        <a href="filmes.html" class="center">Filmes</a>
+        <a href="series.html" class="center">Séries</a>
+          <details>
+            <summary><img src="./imagens/user.png" alt="usuario"> <p>Usuário</p></summary>
+              <nav class="menu">
+                <a href="#">Conta</a>
+                <a href="index.html">Sair</a>
+              </nav>
+          </details>
   </header>
   <main>
     <section class="conteudo">
       <div class="conteudo-texto">
         <h1>Os Anéis do Poder</h1>
-        <p>Assista a série inspirada e ambientada baseada no incrível unierso de J. R. R. Tolkien.</p>
-        <a class="conteudo-btn" href="#" target="_blank">Assistir agora!</a>
         <div class="descricao">
+          <p id="dados"><span id="idade">14</span> 2022 &bull;1 temporada</p>
           <p><span>Gêneros:</span>	Drama, Fantasia, Aventura, Ação</p>
           <p><span>Elenco:</span> Morfydd Clark, Robert Aramayo, Markella Kavenagh, Charlie Vickers, Ismael Cruz Córdova, Nazanin Boniadi, Owain Arthur</p>
         </div>
+        <a class="conteudo-btn" href="#" target="_blank">Assistir agora!</a>
+        <p id="sinopse">Tendo início em uma época de relativa paz, a série acompanha um grupo de personagens que enfrentam o ressurgimento do mal na Terra-média. Das profundezas escuras das Montanhas de Névoa, das majestosas florestas de Lindon, do belíssimo reino da ilha de Númenor, até os confins do mapa, esses reinos e personagens criarão legados que permanecerão vivos muito além de suas partidas.</p>
       </div>
       <div class="image">
         <img src="imagens/assistir/rings-c.png" alt="">
@@ -51,10 +49,6 @@
         </div>
       </div>
     </section>
-      <section class="sinopse">
-        <h2>Sinopse</h2>
-        <p>Tendo início em uma época de relativa paz, a série acompanha um grupo de personagens que enfrentam o ressurgimento do mal na Terra-média. Das profundezas escuras das Montanhas de Névoa, das majestosas florestas de Lindon, do belíssimo reino da ilha de Númenor, até os confins do mapa, esses reinos e personagens criarão legados que permanecerão vivos muito além de suas partidas.</p>
-      </section>
     </section>
   </main>
 

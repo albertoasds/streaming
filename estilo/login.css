@@ -10,12 +10,12 @@ body {
   font-family: 'Montserrat'; 
   height: 100vh;
   background: rgba(0, 0, 0, 0.7) url('../imagens/serie-1.jpg.opdownload');
- height: 100%;
- background-repeat: no-repeat;
- background-size: cover;
- background-blend-mode: darken;
- color: rgb(243, 239, 239);
- background-attachment: fixed;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  color: rgb(243, 239, 239);
+  background-attachment: fixed;
 }
 
 a {
