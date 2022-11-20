@@ -1,6 +1,6 @@
 @media (max-width: 980px) {
   #logotipo {
-    width: 40px;
+    width: 45px;
   }
   #logo {
     font-size: 32px;
@@ -12,15 +12,18 @@
   #pricipais-destaque-responsivo a img {
     width: 40%;
   }
+  details{
+    margin: 0px 20px;
+  }
 }
 
 @media (max-width: 730px) {
-  #logo, #logotipo {
+  #logo{
     display: none;
   }
   #logotipo-mobile {
     display: block;
-    width: 40px;
+    width: 45px;
   }
   .secao_filmes .carousel-item a img {
     width: 40%;
@@ -35,6 +38,12 @@
   #seta-direita {
       width: 5%;
   }
+  h2{
+    font-size: 1.3em;
+}
+details{
+  margin: 0px 10px;
+}
 }
 
 @media (max-width: 500px) {
@@ -50,9 +59,8 @@
   nav li {
     margin-top: 20px;
   }
-
   .secao_filmes .carousel-item a img {
-    width: 45%;
+    width: 40%;
     margin: 5px;
   }
   #pricipais-destaque-responsivo a img {
@@ -65,12 +73,11 @@
     width: 60px;
   }
   details{
-    width: 50px;
-    
+    margin: 0px;
   }
   .menu{
     width: 100px;
-    margin: 0px -10px;
+    margin: 0px -40px;
     padding: 0px;
   }
 }
