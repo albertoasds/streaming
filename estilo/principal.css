@@ -34,7 +34,7 @@ h2{
 /* =========================== NAVEGAÇÃO E PARTE INICIAL =========================== */
 
 header {
-  padding: 20px;
+  padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,6 +54,7 @@ header > a {
   font-family: 'Montserrat';
   color: #c7c7e2;
   font-weight: bold;
+  max-width: 800px;
 }
 
 #area-principal{
