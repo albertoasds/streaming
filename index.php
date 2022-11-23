@@ -39,18 +39,17 @@
             </div>
 
             <p>Novo por aqui ?</p>
-            <a href="./cadastro.php" class="cadastro-btn">Cadastre-se</a>
+            <a href="./telas/cadastro.php" class="cadastro-btn">Cadastre-se</a>
 
 
         </form>
     </div>
 </body>
 <?php
-if(isset($_GET['alerta'])){
-$alerta = $_GET['alerta']; 
-if($alerta == 1){echo "<script language='javascript' >alerta('Atenção!', 'Email não Cadastrado', 'erro');</script>";
-}elseif($alerta == 0){echo "<script language='javascript' >alerta('Sucesso!', 'Cliente Cadastrado com sucesso', 'sucesso');</script>";}
-}
-
+    if(isset($_GET['alerta'])){
+        $alerta = $_GET['alerta']; 
+        if($alerta == 1){echo "<script language='javascript' >alerta('Atenção!', 'Email não Cadastrado', 'erro');</script>";
+        }elseif($alerta == 0){echo "<script language='javascript' >alerta('Sucesso!', 'Cliente Cadastrado com sucesso', 'sucesso');</script>";}
+    }
 ?>
 </html>

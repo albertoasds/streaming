@@ -15,7 +15,7 @@ if(mysqli_num_rows($querypesquisa) == 0){
     header("location:../index.php?alerta=$alerta");
 }else{
     $alerta = 1;
-    header("location:../cadastro.html?alerta=$alerta");
+    header("location:../controle/cadastro.html?alerta=$alerta");
 }
 
 
