@@ -50,8 +50,8 @@
   }
   
   .conteudo h1 {
-    font-family: 'Righteous', cursive;
-    font-size: 4rem;
+    font-family: 'Righteous';
+    font-size: 4.3rem;
     color: var(--word-color);
   }
   
@@ -97,17 +97,23 @@
     background-color: white;
   }
 
+  #sinopse{
+    font-size: 20px;
+  }
+
   @media (max-width: 700px) {
     .conteudo {
       flex-direction: column;
       margin: 0px;
+      padding-top: 10px;
+      padding-bottom: 5px;
     }
     .conteudo-texto {
       align-items: center;
       gap: 20px;
     }
     .conteudo-texto h1 {
-      font-size: 2.5rem;
+      font-size: 3rem;
     }
     .conteudo-texto p {
       text-align: center;
@@ -116,38 +122,30 @@
     .conteudo-btn {
       place-self: center;
     }
+    .descricao p{
+      text-align: left;
+    }
+    #botoes {
+      margin: 20px 0px;
+    }
+    #sinopse{
+      font-size: 18px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .assistir-btn, .trailer-btn {
+      font-size: 16px;
+    }
+    #botoes {
+      line-height: 60px;
+    }
   }
   
   /* section ------------ */
-  .sinopse {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 40px;
-    padding: 0px 20px;
-  }
   
-  .sinopse h2 {
-    font-family: 'Righteous', cursive;
-    font-weight: 400;
-    color: var(--word-color);
-    margin-bottom: 40px;
-    padding: 40px 150px 0px;
-    border-top: 1px solid #f7efe977;
-  }
-  
- /* .sinopse p {
-    font-family: 'Sarala', sans-serif;
-    color: var(--word-color);
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-*/
   .descricao > p {
+    line-height: 28px;
     font-size: 15px;
     color: rgb(221, 218, 218);
   }
@@ -168,10 +166,6 @@
 
   #dados{
     color: azure;
-  }
-
-  #sinopse{
-    font-size: 20px;
   }
 
 
