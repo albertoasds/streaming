@@ -38,5 +38,5 @@ Esse projeto está sob a licença MIT.
 
 ## 🔗 Link para o site
 ```
-https://rubensgabriel.github.io/streaming/
+http://multicinedoctum.000webhostapp.com/
 ```
