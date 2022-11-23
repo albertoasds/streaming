@@ -7,7 +7,17 @@
     font-family: 'Roboto';
   }
 
+<<<<<<< Updated upstream
   
+=======
+  body{
+    background: rgba(0, 0, 0, 0.808) url('../imagens/assistir/aneis_poder.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+>>>>>>> Stashed changes
 
   :root {
     --word-color: #ebeae5;
